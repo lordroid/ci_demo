@@ -1,0 +1,1711 @@
+###############################################################################
+#
+# IAR ELF Linker V7.10.1.6676/W32 for ARM                 25/Jan/2019  13:58:05
+# Copyright 2007-2014 IAR Systems AB.
+#
+#    Output file  =  
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\img\user\user.out
+#    Map file     =  
+#        E:\工作\2019\ci1006\ci-test-git\中文\project\user\..\..\fw_updata\obj\user\user.map
+#    Command line =  
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\adpcm.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\lib\asr_driver_v2.3_20181109.a
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\ccsbcs.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\ci100x_adc.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\ci100x_asrcmd.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\ci100x_can.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\ci100x_dma.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\ci100x_global.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\ci100x_gpio.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\ci100x_i2c.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\ci100x_ir.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\ci100x_it.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\ci100x_malloc.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\ci100x_mpu.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\ci100x_pwm.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\ci100x_scu.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\ci100x_sd.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\ci100x_sdram.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\ci100x_spi.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\ci100x_spiflash.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\ci100x_startup.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\ci100x_suart.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\ci100x_timer.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\ci100x_TimerWdt.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\ci100x_uart.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\ci100x_wdt.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\ci100x_xpwm.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\ci_denoise.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\lib\cikd_asr0.6.5.1.a
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\com2_task.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\croutine.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\cs42l52.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\cxdish.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\CxFlash.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\ci_denoise\denoise_debug_0.1.0.a
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\diskio.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\event_groups.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\ff.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\Fw_updata.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\heap_4.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\host_depend.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\iic_cx.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\list.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\main.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\misc.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\nvdata_save.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\port.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\portasm.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\queue.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\sh86313.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\smt_adc.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\smt_at24c08b.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\smt_can.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\smt_cs42l52.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\smt_gpio.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\smt_iis.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\smt_iwdg.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\smt_mpu.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\smt_pwm.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\smt_scu.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\smt_sd.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\smt_sdram.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\smt_spiflash.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\smt_timer.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\smt_twdg.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\smt_uart.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\smt_xpwm.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\system_ci100x.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\task_asr.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\Task_key.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\tasks.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\test_stamp_board.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\timers.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\user_main.o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user\Utils.o -o
+#        E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\img\user\user.out --map
+#        E:\工作\2019\ci1006\ci-test-git\中文\project\user\..\..\fw_updata\obj\user\user.map
+#        --config E:\工作\2019\ci1006\ci-test-git\中文\project\user\ci100x.icf
+#        --semihosting --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor                     = *
+__CPP_Exceptions              = Disabled
+__CPP_Language                = C++
+__Heap_Handler                = DLMalloc
+__SystemLibrary               = DLib
+__dlib_dynamic_initialization = normal
+__dlib_has_iterator_debugging = 0
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x1ffe8000 { ro section .intvec };
+"P1":  place in [from 0x1ffe8000 to 0x200058ff] { ro };
+"P2":  place in [from 0x20005900 to 0x2000ffff] { rw, block CSTACK };
+"P3":  place in [from 0x70000000 to 0x702fffff] { block HEAP };
+
+  Section             Kind        Address      Size  Object
+  -------             ----        -------      ----  ------
+"A1":                                         0x140
+  .intvec             const    0x1ffe8000     0x100  ci100x_startup.o [1]
+  .intvec             ro code  0x1ffe8100      0x40  vector_table_M.o [8]
+                             - 0x1ffe8140     0x140
+
+"P1":                                       0x13eb7
+  .text               ro code  0x1ffe8140    0x2428  cikd_decoder.o [4]
+  .text               ro code  0x1ffea568    0x14c0  dlmalloc.o [6]
+  .text               ro code  0x1ffeba28      0x76  ABImemcpy_unaligned.o [8]
+  .text               ro code  0x1ffeba9e      0x22  zero_init3.o [8]
+  .text               ro code  0x1ffebac0       0x6  ABImemclr4.o [8]
+  .text               ro code  0x1ffebac6      0x1e  xsscin.o [6]
+  .text               ro code  0x1ffebae4       0x6  ABImemclr.o [8]
+  .text               ro code  0x1ffebaea      0x1a  xsnprout.o [6]
+  .text               ro code  0x1ffebb04      0x3a  ABImemset48.o [8]
+  .text               ro code  0x1ffebb3e       0xa  xsprout.o [6]
+  .text               ro code  0x1ffebb48      0x6c  strncpy_unaligned.o [8]
+  .text               ro code  0x1ffebbb4      0x36  strlen.o [8]
+  .text               ro code  0x1ffebbea       0x2  vector_table_M.o [8]
+  .text               ro code  0x1ffebbec      0x62  memcmp_unaligned.o [8]
+  .rodata             const    0x1ffebc4e       0x1  unwind_debug.o [9]
+  .text               ro code  0x1ffebc50      0x24  sscanf.o [6]
+  .text               ro code  0x1ffebc74      0x2c  strstr.o [6]
+  .text               ro code  0x1ffebca0     0x19c  xstoul.o [6]
+  .text               ro code  0x1ffebe3c      0x30  I32ToDbl.o [7]
+  .text               ro code  0x1ffebe6c     0x246  DblDiv.o [7]
+  .text               ro code  0x1ffec0b4     0x1a2  DblMul.o [7]
+  .text               ro code  0x1ffec258      0xe8  DblAdd.o [7]
+  .text               ro code  0x1ffec340      0x58  DblToI32.o [7]
+  .text               ro code  0x1ffec398      0x1a  silence.o [4]
+  .text               ro code  0x1ffec3b4      0x44  strcpy_unaligned.o [8]
+  .text               ro code  0x1ffec3f8      0x4e  FltToDbl.o [7]
+  .text               ro code  0x1ffec448      0x90  DblToFlt.o [7]
+  .text               ro code  0x1ffec4d8     0x180  DblSub.o [7]
+  .text               ro code  0x1ffec658      0x7a  cikd_decoder.o [4]
+  .text               ro code  0x1ffec6d4      0x66  ABImemset.o [8]
+  .text               ro code  0x1ffec73a      0x1c  strcat.o [6]
+  .text               ro code  0x1ffec758      0x34  sprintf.o [6]
+  .text               ro code  0x1ffec78c       0x6  abort.o [6]
+  .text               ro code  0x1ffec794      0x2c  xgetmemchunk.o [6]
+  .text               ro code  0x1ffec7c0     0x510  xscanfsmall_nomb.o [6]
+  .text               ro code  0x1ffeccd0      0x16  strchr.o [8]
+  .text               ro code  0x1ffecce8      0x58  memchr.o [8]
+  .text               ro code  0x1ffecd40       0xc  errno.o [6]
+  .text               ro code  0x1ffecd4c     0x160  cikd_decoder.o [4]
+  .text               ro code  0x1ffeceac      0x78  ABImemmove_unaligned.o [8]
+  .text               ro code  0x1ffecf24     0xd86  xprintffull_nomb.o [6]
+  .text               ro code  0x1ffedcac      0x14  exit.o [9]
+  .text               ro code  0x1ffedcc0      0x86  xstol.o [6]
+  .text               ro code  0x1ffedd46       0x2  xtls.o [6]
+  .text               ro code  0x1ffedd48      0x36  cikd_decoder.o [4]
+  .text               ro code  0x1ffedd80      0xee  I64DivMod.o [8]
+  .text               ro code  0x1ffede6e      0x42  xdnorm.o [7]
+  .text               ro code  0x1ffedeb0      0x2e  DblCmpLe.o [7]
+  .text               ro code  0x1ffedee0      0x2e  DblCmpGe.o [7]
+  .text               ro code  0x1ffedf10     0x114  xdscale.o [7]
+  .text               ro code  0x1ffee024       0xe  div.o [6]
+  .text               ro code  0x1ffee034       0x2  I64DivZer.o [8]
+  .text               ro code  0x1ffee038    0x1c78  task_asr_in.o [3]
+  .text               ro code  0x1ffefcb0     0x19c  ci100x_uart.o [1]
+  .text               ro code  0x1ffefe4c    0x11ec  ci100x_asr.o [3]
+  .text               ro code  0x1fff1038      0x80  smt_timer.o [1]
+  .text               ro code  0x1fff10b8     0x93c  tasks.o [1]
+  .text               ro code  0x1fff19f4     0xcdc  main.o [1]
+  .text               ro code  0x1fff26d0     0x6b8  task_asr.o [1]
+  .text               ro code  0x1fff2d88     0x746  queue.o [1]
+  .text               ro code  0x1fff34ce       0xc  memcpy.o [6]
+  .text               ro code  0x1fff34da      0x14  memset.o [6]
+  .text               ro code  0x1fff34f0     0x5d4  user_main.o [1]
+  .text               ro code  0x1fff3ac4      0x10  ci100x_timer.o [1]
+  .text               ro code  0x1fff3ad4       0x4  task_asr.o [1]
+  .text               ro code  0x1fff3ad8      0x10  atof.o [7]
+  .text               ro code  0x1fff3ae8      0x42  strcmp_unaligned.o [8]
+  .text               ro code  0x1fff3b2c    0x1790  ci100x_scu.o [1]
+  .text               ro code  0x1fff52bc      0x7c  misc.o [1]
+  .text               ro code  0x1fff5338    0x11a4  smt_cs42l52.o [1]
+  .text               ro code  0x1fff64dc      0x3c  vsnprint.o [6]
+  .text               ro code  0x1fff6518       0x6  logf.o [7]
+  .text               ro code  0x1fff6520     0x198  smt_spiflash.o [1]
+  .text               ro code  0x1fff66b8      0xe4  ci100x_softvad.o [3]
+  .text               ro code  0x1fff679c     0x1f0  port.o [1]
+  .text               ro code  0x1fff698c      0x90  list.o [1]
+  .text               ro code  0x1fff6a1c     0x398  timers.o [1]
+  .text               ro code  0x1fff6db4     0x1e8  heap_4.o [1]
+  .text               ro code  0x1fff6f9c     0x108  ci100x_gpio.o [1]
+  .text               ro code  0x1fff70a4      0xb8  smt_uart.o [1]
+  .text               ro code  0x1fff715c      0xc0  smt_iwdg.o [1]
+  .text               ro code  0x1fff721c      0x2a  strncmp.o [6]
+  .text               ro code  0x1fff7248     0x340  nvdata_save.o [1]
+  .text               ro code  0x1fff7588     0x56c  com2_task.o [1]
+  .text               ro code  0x1fff7af4      0xc8  Task_key.o [1]
+  .text               ro code  0x1fff7bbc     0x198  sh86313.o [1]
+  .text               ro code  0x1fff7d54     0x168  xstod.o [7]
+  .text               ro code  0x1fff7ebc     0x510  ci100x_i2c.o [1]
+  .text               ro code  0x1fff83cc     0x3f4  ci100x_iis.o [3]
+  .text               ro code  0x1fff87c0     0x1a4  ci100x_iisdma.o [3]
+  .text               ro code  0x1fff8964     0x130  adpcm.o [1]
+  .text               ro code  0x1fff8a94       0x4  ci100x_malloc.o [1]
+  .text               ro code  0x1fff8a98     0x168  xflog.o [7]
+  .text               ro code  0x1fff8c00     0xc2c  ci100x_spiflash.o [1]
+  CODE                ro code  0x1fff982c      0xa8  portasm.o [1]
+  .text               ro code  0x1fff98d4      0x54  ci100x_wdt.o [1]
+  .text               ro code  0x1fff9928      0x1c  Utils.o [1]
+  .text               ro code  0x1fff9944     0x130  xstopfx.o [6]
+  .text               ro code  0x1fff9a74     0x1b4  xstoflt.o [6]
+  .text               ro code  0x1fff9c28     0x200  xdtento.o [7]
+  .text               ro code  0x1fff9e28     0x200  xstoxflt.o [6]
+  .text               ro code  0x1fffa028      0x26  xfdnorm.o [7]
+  .text               ro code  0x1fffa050     0x2b0  ci100x_dma.o [1]
+  .text               ro code  0x1fffa300      0x20  DblCmpEq.o [7]
+  .text               ro code  0x1fffa320      0x56  xdunscal.o [7]
+  .text               ro code  0x1fffa378     0x8d8  ci100x_it.o [1]
+  .text               ro code  0x1fffac50      0x16  ci100x_xpwm.o [1]
+  .text               ro code  0x1fffac68      0x48  ci100x_adc.o [1]
+  .text               ro code  0x1fffacb0     0x128  smt_adc.o [1]
+  .text               ro code  0x1fffadd8     0x10c  ci100x_suart.o [1]
+  .text               ro code  0x1fffaee4     0x6f4  ci100x_sdram.o [1]
+  .rodata             const    0x1fffb5d8     0x328  ci100x_asrcmd.o [1]
+  .text               ro code  0x1fffb900     0x1c6  lz77_init.o [8]
+  .text               ro code  0x1fffbac8     0x174  system_ci100x.o [1]
+  .text               ro code  0x1fffbc3c      0xc0  arm_bitreversal2_512.o [5]
+  .text               ro code  0x1fffbcfc      0x28  data_init.o [8]
+  .iar.init_table     const    0x1fffbd24      0x38  - Linker created -
+  .text               ro code  0x1fffbd5c      0x20  cmain_call_ctors.o [8]
+  .text               ro code  0x1fffbd7c      0x18  cppinit.o [6]
+  .text               ro code  0x1fffbd94      0x1a  fpinit_M.o [7]
+  .text               ro code  0x1fffbdb0      0x1a  cmain.o [8]
+  .text               ro code  0x1fffbdca       0x4  low_level_init.o [6]
+  .text               ro code  0x1fffbdce       0x4  exit.o [6]
+  .text               ro code  0x1fffbdd4       0xa  cexit.o [8]
+  .text               ro code  0x1fffbdde       0xe  ci100x_startup.o [1]
+  .text               ro code  0x1fffbdec       0xc  cstartup_M.o [8]
+  SHT$$PREINIT_ARRAY           0x1fffbdf8       0x0  <Block>
+  SHT$$INIT_ARRAY              0x1fffbdf8       0x4  <Block>
+    .init_array       const    0x1fffbdf8       0x4  ci100x_asr.o [3]
+  .rodata             const    0x1fffbdfc       0x0  zero_init3.o [8]
+  .rodata             const    0x1fffbdfc       0x0  lz77_init.o [8]
+  Initializer bytes   ro data  0x1fffbdfc     0x1fb  <for P2 s0>
+                             - 0x1fffbff7   0x13eb7
+
+"P2", part 1 of 3:                            0x870
+  P2 s0                        0x20005900     0x86d  <Init block>
+    .data             inited   0x20005900     0x424  ci100x_asrcmd.o [1]
+    .data             inited   0x20005d24     0x114  ci100x_suart.o [1]
+    .data             inited   0x20005e38      0xc0  ci100x_asr.o [3]
+    .data             inited   0x20005ef8      0x90  ci100x_i2c.o [1]
+    .data             inited   0x20005f88      0x90  task_asr_in.o [3]
+    .data             inited   0x20006018      0x64  task_asr_in.o [3]
+    .data             inited   0x2000607c      0x60  smt_cs42l52.o [1]
+    .data             inited   0x200060dc      0x28  ci100x_softvad.o [3]
+    .data             inited   0x20006104      0x1c  task_asr_in.o [3]
+    .data             inited   0x20006120      0x10  ci100x_it.o [1]
+    .data             inited   0x20006130      0x10  smt_adc.o [1]
+    .data             inited   0x20006140       0xc  port.o [1]
+    .data             inited   0x2000614c       0x8  ci100x_asrcmd.o [1]
+    .data             inited   0x20006154       0x8  smt_spiflash.o [1]
+    .data             inited   0x2000615c       0x4  ci100x_global.o [1]
+    .data             inited   0x20006160       0x4  smt_cs42l52.o [1]
+    .data             inited   0x20006164       0x4  ci100x_asr.o [3]
+    __DLIB_PERTHREAD  inited   0x20006168       0x4  errno.o [6]
+    .data             inited   0x2000616c       0x1  task_asr_in.o [3]
+                             - 0x2000616d     0x86d
+
+"P2", part 2 of 3:                           0x6338
+  .bss                zero     0x20006170    0x5018  heap_4.o [1]
+  .bss                zero     0x2000b188     0x7d0  ci100x_asr.o [3]
+  .bss                zero     0x2000b958     0x320  ci100x_asr.o [3]
+  .bss                zero     0x2000bc78     0x1d8  dlmalloc.o [6]
+  .bss                zero     0x2000be50     0x10c  task_asr_in.o [3]
+  .bss                zero     0x2000bf5c      0xfc  ci100x_uart.o [1]
+  .bss                zero     0x2000c058      0xc8  cikd_decoder.o [4]
+  .bss                zero     0x2000c120      0x9c  tasks.o [1]
+  .bss                zero     0x2000c1bc      0x80  tasks.o [1]
+  .bss                zero     0x2000c23c      0x64  ci100x_asr.o [3]
+  .bss                zero     0x2000c2a0      0x48  task_asr.o [1]
+  .bss                zero     0x2000c2e8      0x34  timers.o [1]
+  .bss                zero     0x2000c31c      0x18  dlmalloc.o [6]
+  .bss                zero     0x2000c334      0x14  com2_task.o [1]
+  .bss                zero     0x2000c348      0x14  task_asr.o [1]
+  .bss                zero     0x2000c35c      0x10  ci100x_can.o [1]
+  .bss                zero     0x2000c36c      0x10  ci100x_asr.o [3]
+  .bss                zero     0x2000c37c       0xc  user_main.o [1]
+  .bss                zero     0x2000c388       0x8  adpcm.o [1]
+  .bss                zero     0x2000c390       0x8  ci100x_global.o [1]
+  .bss                zero     0x2000c398       0x8  ci100x_global.o [1]
+  .bss                zero     0x2000c3a0       0x8  ci100x_it.o [1]
+  .bss                zero     0x2000c3a8       0x8  ci100x_it.o [1]
+  .bss                zero     0x2000c3b0       0x8  main.o [1]
+  .bss                zero     0x2000c3b8       0x8  user_main.o [1]
+  .bss                zero     0x2000c3c0       0x8  ci100x_asr.o [3]
+  .bss                zero     0x2000c3c8       0x8  task_asr_in.o [3]
+  .bss                zero     0x2000c3d0       0x8  cikd_decoder.o [4]
+  .bss                zero     0x2000c3d8       0x4  ci100x_can.o [1]
+  .bss                zero     0x2000c3dc       0x4  ci100x_can.o [1]
+  .bss                zero     0x2000c3e0       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c3e4       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c3e8       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c3ec       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c3f0       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c3f4       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c3f8       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c3fc       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c400       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c404       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c408       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c40c       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c410       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c414       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c418       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c41c       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c420       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c424       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c428       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c42c       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c430       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c434       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c438       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c43c       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c440       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c444       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c448       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c44c       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c450       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c454       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c458       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c45c       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c460       0x4  ci100x_global.o [1]
+  .bss                zero     0x2000c464       0x4  ci100x_it.o [1]
+  .bss                zero     0x2000c468       0x4  ci100x_it.o [1]
+  .bss                zero     0x2000c46c       0x4  ci100x_it.o [1]
+  .bss                zero     0x2000c470       0x4  com2_task.o [1]
+  .bss                zero     0x2000c474       0x4  main.o [1]
+  .bss                zero     0x2000c478       0x4  main.o [1]
+  .bss                zero     0x2000c47c       0x4  nvdata_save.o [1]
+  .bss                zero     0x2000c480       0x4  timers.o [1]
+  .bss                zero     0x2000c484       0x4  ci100x_asr.o [3]
+  .bss                zero     0x2000c488       0x4  ci100x_asr.o [3]
+  .bss                zero     0x2000c48c       0x4  task_asr_in.o [3]
+  .bss                zero     0x2000c490       0x4  task_asr_in.o [3]
+  .bss                zero     0x2000c494       0x4  task_asr_in.o [3]
+  .bss                zero     0x2000c498       0x4  task_asr_in.o [3]
+  .bss                zero     0x2000c49c       0x4  xgetmemchunk.o [6]
+  .bss                zero     0x2000c4a0       0x2  Task_key.o [1]
+                             - 0x2000c4a2    0x6332
+
+"P2", part 3 of 3:                           0x2000
+  CSTACK                       0x2000c4a8    0x2000  <Block>
+    CSTACK            uninit   0x2000c4a8    0x2000  <Block tail>
+                             - 0x2000e4a8    0x2000
+
+"P3":                                      0x300000
+  HEAP                         0x70000000  0x300000  <Block>
+    HEAP              uninit   0x70000000  0x300000  <Block tail>
+                             - 0x70300000  0x300000
+
+Absolute sections:                            0x100
+  .bss                zero     0x70300000     0x100  nvdata_save.o [1]
+                             - 0x70300100     0x100
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    2 destination ranges, total size 0x6432:
+          0x20006170  0x6332
+          0x70300000   0x100
+
+Copy/lz77 (__iar_lz77_init3)
+    1 source range, total size 0x1fb (23% of destination):
+          0x1fffbdfc   0x1fb
+    1 destination range, total size 0x86d:
+          0x20005900   0x86d
+
+Extra (__iar_cstart_call_ctors)
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data    rw data  rw data
+                                                          (abs)
+    ------                  -------  -------    -------  -------
+E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user: [1]
+    Task_key.o                  200                   2
+    Utils.o                      28
+    adpcm.o                     304                   8
+    ci100x_adc.o                 72
+    ci100x_asrcmd.o                    1 059      1 068
+    ci100x_can.o                                     24
+    ci100x_dma.o                688
+    ci100x_global.o                                 152
+    ci100x_gpio.o               264
+    ci100x_i2c.o              1 296       34        144
+    ci100x_it.o               2 264        4         44
+    ci100x_malloc.o               4
+    ci100x_scu.o              6 032
+    ci100x_sdram.o            1 780
+    ci100x_spiflash.o         3 116
+    ci100x_startup.o             14      256
+    ci100x_suart.o              268       65        276
+    ci100x_timer.o               16
+    ci100x_uart.o               412                 252
+    ci100x_wdt.o                 84
+    ci100x_xpwm.o                22
+    com2_task.o               1 388                  24
+    heap_4.o                    488              20 504
+    list.o                      144
+    main.o                    3 292                  16
+    misc.o                      124
+    nvdata_save.o               832                   4      256
+    port.o                      496        3         12
+    portasm.o                   168
+    queue.o                   1 862
+    sh86313.o                   408
+    smt_adc.o                   296        4         16
+    smt_cs42l52.o             4 516       23        100
+    smt_iwdg.o                  192
+    smt_spiflash.o              408        2          8
+    smt_timer.o                 128
+    smt_uart.o                  184
+    system_ci100x.o             372
+    task_asr.o                1 724                  92
+    tasks.o                   2 364                 284
+    timers.o                    920                  56
+    user_main.o               1 492                  20
+    ------------------------------------------------------------
+    Total:                   38 662    1 450     23 106      256
+
+command line: [2]
+    ------------------------------------------------------------
+    Total:
+
+asr_driver_v2.3_20181109.a: [3]
+    ci100x_asr.o              4 588       50      3 128
+    ci100x_iis.o              1 012
+    ci100x_iisdma.o             420
+    ci100x_softvad.o            228       10         40
+    task_asr_in.o             7 288       64        565
+    ------------------------------------------------------------
+    Total:                   13 536      124      3 733
+
+cikd_asr0.6.5.1.a: [4]
+    cikd_decoder.o            9 784                 208
+    silence.o                    26
+    ------------------------------------------------------------
+    Total:                    9 810                 208
+
+denoise_debug_0.1.0.a: [5]
+    arm_bitreversal2_512.o      192
+    ------------------------------------------------------------
+    Total:                      192
+
+dl7M_tln.a: [6]
+    abort.o                       6
+    cppinit.o                    24
+    div.o                        14
+    dlmalloc.o                5 312                 496
+    errno.o                      12        1          4
+    exit.o                        4
+    low_level_init.o              4
+    memcpy.o                     12
+    memset.o                     20
+    sprintf.o                    52
+    sscanf.o                     36
+    strcat.o                     28
+    strncmp.o                    42
+    strstr.o                     44
+    vsnprint.o                   60
+    xgetmemchunk.o               44                   4
+    xprintffull_nomb.o        3 462
+    xscanfsmall_nomb.o        1 296
+    xsnprout.o                   26
+    xsprout.o                    10
+    xsscin.o                     30
+    xstoflt.o                   436
+    xstol.o                     134
+    xstopfx.o                   304
+    xstoul.o                    412
+    xstoxflt.o                  512
+    xtls.o                        2
+    ------------------------------------------------------------
+    Total:                   12 338        1        504
+
+m7M_tlv.a: [7]
+    DblAdd.o                    232
+    DblCmpEq.o                   32
+    DblCmpGe.o                   46
+    DblCmpLe.o                   46
+    DblDiv.o                    582
+    DblMul.o                    418
+    DblSub.o                    384
+    DblToFlt.o                  144
+    DblToI32.o                   88
+    FltToDbl.o                   78
+    I32ToDbl.o                   48
+    atof.o                       16
+    fpinit_M.o                   26
+    logf.o                        6
+    xdnorm.o                     66
+    xdscale.o                   276
+    xdtento.o                   512
+    xdunscal.o                   86
+    xfdnorm.o                    38
+    xflog.o                     360
+    xstod.o                     360
+    ------------------------------------------------------------
+    Total:                    3 844
+
+rt7M_tl.a: [8]
+    ABImemclr.o                   6
+    ABImemclr4.o                  6
+    ABImemcpy_unaligned.o       118
+    ABImemmove_unaligned.o      120
+    ABImemset.o                 102
+    ABImemset48.o                58
+    I64DivMod.o                 238
+    I64DivZer.o                   2
+    cexit.o                      10
+    cmain.o                      26
+    cmain_call_ctors.o           32
+    cstartup_M.o                 12
+    data_init.o                  40
+    lz77_init.o                 454
+    memchr.o                     88
+    memcmp_unaligned.o           98
+    strchr.o                     22
+    strcmp_unaligned.o           66
+    strcpy_unaligned.o           68
+    strlen.o                     54
+    strncpy_unaligned.o         108
+    vector_table_M.o             66
+    zero_init3.o                 34
+    ------------------------------------------------------------
+    Total:                    1 828
+
+shb_l.a: [9]
+    exit.o                       20
+    unwind_debug.o                         1
+    ------------------------------------------------------------
+    Total:                       20        1
+
+    Gaps                         49
+    Linker created                        56  3 153 920
+----------------------------------------------------------------
+    Grand Total:             80 279    1 632  3 181 471      256
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+?main                   0x1fffbdb1          Code  Gb  cmain.o [8]
+ADC_GetResult           0x1fffac97     0xc  Code  Gb  ci100x_adc.o [1]
+ADC_IRQHandler          0x1fffa461    0x2c  Code  Gb  ci100x_it.o [1]
+ADC_IntClear            0x1fffac77    0x20  Code  Gb  ci100x_adc.o [1]
+ADC_IntFlag             0x1fffac69     0xe  Code  Gb  ci100x_adc.o [1]
+ADPCM_Decode(unsigned char)
+                        0x1fff8965    0x68  Code  Gb  adpcm.o [1]
+ASR_DNN_PARA_LENGTH     0x20005e4c     0x4  Data  Gb  ci100x_asr.o [3]
+ASR_IRQHandler()        0x1fff03dd   0x26c  Code  Gb  ci100x_asr.o [3]
+ASR_MODEL_LENGTH        0x20005e48     0x4  Data  Gb  ci100x_asr.o [3]
+ASR_VAD_DNN_Init        0x1ffef84d   0x128  Code  Gb  task_asr_in.o [3]
+ASR_xQueue              0x2000c3e0     0x4  Data  Gb  ci100x_global.o [1]
+Add_ErrorID(int)        0x1ffe814f    0x2e  Code  Gb  cikd_decoder.o [4]
+AsrCmd_Struct           0x20005900   0x424  Data  Gb  ci100x_asrcmd.o [1]
+Asr_Playback(int)       0x1fff3891    0xda  Code  Gb  user_main.o [1]
+Asr_open                0x1fff0c31    0x20  Code  Gb  ci100x_asr.o [3]
+BusFault_Handler        0x1fffaa4b     0xe  Code  Gb  ci100x_it.o [1]
+CAN_IRQHandler          0x1fffa48d    0x6a  Code  Gb  ci100x_it.o [1]
+CI0000(char const *, char const *)
+                        0x1ffe934d    0xa8  Code  Lc  cikd_decoder.o [4]
+CI0001(int)             0x1ffe9461    0xe2  Code  Lc  cikd_decoder.o [4]
+CI0002(float *, int)    0x1ffe97a9    0x18  Code  Lc  cikd_decoder.o [4]
+CI0003()                0x1ffe9d97    0x3a  Code  Lc  cikd_decoder.o [4]
+CI0004()                0x1ffe9fe9   0x1fe  Code  Lc  cikd_decoder.o [4]
+CI0005(int)             0x1ffe9ddd   0x206  Code  Lc  cikd_decoder.o [4]
+CI0006(int)             0x1ffe9421    0x2a  Code  Lc  cikd_decoder.o [4]
+CI0007(char const *)    0x1ffe9285    0x20  Code  Lc  cikd_decoder.o [4]
+CI0008()                0x1ffe944b     0xa  Code  Lc  cikd_decoder.o [4]
+CI0009(float *, int)    0x1ffe97c1   0x492  Code  Lc  cikd_decoder.o [4]
+CI0010(_Elem *, unsigned int *, int *, _Elem **)
+                        0x1ffe9c59   0x13e  Code  Lc  cikd_decoder.o [4]
+CI0011(int)             0x1ffe9551   0x238  Code  Lc  cikd_decoder.o [4]
+CI0012(int *, int *, int *, int *)
+                        0x1ffe92a9    0x34  Code  Lc  cikd_decoder.o [4]
+CI0013(char *)          0x1ffea1ed    0x72  Code  Lc  cikd_decoder.o [4]
+CI0014(float, int)      0x1ffea269    0x76  Code  Lc  cikd_decoder.o [4]
+CI0015(HashList *, _Elem *)
+                        0x1ffe9789    0x20  Code  Lc  cikd_decoder.o [4]
+CI0016(char const *, int, char const **)
+                        0x1ffe8fd5   0x26c  Code  Lc  cikd_decoder.o [4]
+CI0021(HashList *, _Token *)
+                        0x1ffe81ab    0x30  Code  Gb  cikd_decoder.o [4]
+CI0025(State *, StdArc *)
+                        0x1ffe81db    0x9c  Code  Gb  cikd_decoder.o [4]
+CI0028(VectorFst *, State *)
+                        0x1ffe8283    0x5c  Code  Gb  cikd_decoder.o [4]
+CI0029(VectorFst *)     0x1ffe82df    0x58  Code  Gb  cikd_decoder.o [4]
+CI0033(HashList *)      0x1ffe833f    0x30  Code  Gb  cikd_decoder.o [4]
+CI0034(HashList *, int)
+                        0x1ffe836f    0x98  Code  Gb  cikd_decoder.o [4]
+CI0035(HashList *)      0x1ffe8407    0x2a  Code  Gb  cikd_decoder.o [4]
+CI0038(HashList *, int)
+                        0x1ffe8431    0x44  Code  Gb  cikd_decoder.o [4]
+CI0040(HashList *)      0x1ffe8475    0xb2  Code  Gb  cikd_decoder.o [4]
+CI0041(HashList *)      0x1ffe8527    0xb6  Code  Gb  cikd_decoder.o [4]
+CI0042(HashList *)      0x1ffe85e5    0x36  Code  Gb  cikd_decoder.o [4]
+CI0043(HashList *)      0x1ffe861b    0x56  Code  Gb  cikd_decoder.o [4]
+CI0044(HashList *, int, _Token *)
+                        0x1ffe8677    0x5a  Code  Gb  cikd_decoder.o [4]
+CI0045(DecoderOptions *)
+                        0x1ffe86d7    0x36  Code  Gb  cikd_decoder.o [4]
+CI0046(AsrCIKDDecoder *)
+                        0x1ffe870d   0x146  Code  Gb  cikd_decoder.o [4]
+CI0047(AsrCIKDDecoder *)
+                        0x1ffe8859    0x1a  Code  Gb  cikd_decoder.o [4]
+CI0048(AsrCIKDDecoder *, int, int, int)
+                        0x1ffe8873    0xda  Code  Gb  cikd_decoder.o [4]
+CI0050(AsrCIKDDecoder *)
+                        0x1ffe894d    0x1a  Code  Gb  cikd_decoder.o [4]
+CI0051(AsrCIKDDecoder *, int)
+                        0x1ffe8967    0x76  Code  Gb  cikd_decoder.o [4]
+CI0052(AsrCIKDDecoder *)
+                        0x1ffe89dd    0x1c  Code  Gb  cikd_decoder.o [4]
+CI0053(AsrCIKDDecoder *, int)
+                        0x1ffe89f9    0x76  Code  Gb  cikd_decoder.o [4]
+CI0057(VectorFinalState *, FinalState)
+                        0x1ffe8a85    0x64  Code  Gb  cikd_decoder.o [4]
+CI0059(AsrCIKDDecoder *, char *, int, int)
+                        0x1ffe8af5    0x6e  Code  Gb  cikd_decoder.o [4]
+CI0060(AsrCIKDDecoder *)
+                        0x1ffe8b71   0x17a  Code  Gb  cikd_decoder.o [4]
+CI0061(char const *, int)
+                        0x1ffe8cf5   0x2d6  Code  Gb  cikd_decoder.o [4]
+CIRBMDL_Init(unsigned int, unsigned int, unsigned int, unsigned int)
+                        0x1fff03b9    0x1a  Code  Gb  ci100x_asr.o [3]
+CPU_rstType             0x2000c398     0x8  Data  Gb  ci100x_global.o [1]
+CSTACK$$Base            0x2000c4a8           --   Gb  - Linker created -
+CSTACK$$Limit           0x2000e4a8           --   Gb  - Linker created -
+CheckPlayFlag()         0x1ffefa0d     0x6  Code  Gb  task_asr_in.o [3]
+CheckStatus()           0x1ffefa13    0x5a  Code  Gb  task_asr_in.o [3]
+CheckStatusTimerSet()   0x1fff2a4d    0x3e  Code  Gb  task_asr.o [1]
+Check_Asr_Enter_Sleep()
+                        0x1fff384f    0x42  Code  Gb  user_main.o [1]
+Check_iis1dmastate()    0x1fffa997    0x5e  Code  Gb  ci100x_it.o [1]
+DMAC_ChannelConfig      0x1fffa259    0x28  Code  Gb  ci100x_dma.o [1]
+DMAC_ChannelDestAddr    0x1fffa113     0xc  Code  Gb  ci100x_dma.o [1]
+DMAC_ChannelDestConfig  0x1fffa15f    0x2e  Code  Gb  ci100x_dma.o [1]
+DMAC_ChannelDisable     0x1fffa1fd    0x20  Code  Gb  ci100x_dma.o [1]
+DMAC_ChannelEnable      0x1fffa21d    0x1a  Code  Gb  ci100x_dma.o [1]
+DMAC_ChannelEnableStatus
+                        0x1fffa099    0x10  Code  Gb  ci100x_dma.o [1]
+DMAC_ChannelHalt        0x1fffa29f    0x1e  Code  Gb  ci100x_dma.o [1]
+DMAC_ChannelInterruptMask
+                        0x1fffa237    0x22  Code  Gb  ci100x_dma.o [1]
+DMAC_ChannelLLI         0x1fffa11f    0x12  Code  Gb  ci100x_dma.o [1]
+DMAC_ChannelLock        0x1fffa281    0x1e  Code  Gb  ci100x_dma.o [1]
+DMAC_ChannelPowerDown   0x1fffa2bd    0x1e  Code  Gb  ci100x_dma.o [1]
+DMAC_ChannelProtectionConfig
+                        0x1fffa1ab    0x26  Code  Gb  ci100x_dma.o [1]
+DMAC_ChannelSourceConfig
+                        0x1fffa131    0x2e  Code  Gb  ci100x_dma.o [1]
+DMAC_ChannelSoureAddr   0x1fffa109     0xa  Code  Gb  ci100x_dma.o [1]
+DMAC_ChannelTCInt       0x1fffa18d    0x1e  Code  Gb  ci100x_dma.o [1]
+DMAC_ChannelTransferSize
+                        0x1fffa1d1    0x2c  Code  Gb  ci100x_dma.o [1]
+DMAC_Config             0x1fffa0a9    0x20  Code  Gb  ci100x_dma.o [1]
+DMAC_EN                 0x1fffa0c9    0x40  Code  Gb  ci100x_dma.o [1]
+DMAC_IntErrorClear      0x1fffa07d    0x1c  Code  Gb  ci100x_dma.o [1]
+DMAC_IntTCClear         0x1fffa061    0x1c  Code  Gb  ci100x_dma.o [1]
+DMAC_IntTCStatus        0x1fffa051    0x10  Code  Gb  ci100x_dma.o [1]
+DMA_IRQHandler          0x1fffa517    0x48  Code  Gb  ci100x_it.o [1]
+DNN_HIDEN_NUM           0x20005e58     0x4  Data  Gb  ci100x_asr.o [3]
+DNN_LAYER_NUM           0x20005e54     0x4  Data  Gb  ci100x_asr.o [3]
+DNN_OUTPUT_NUM          0x20005e50     0x4  Data  Gb  ci100x_asr.o [3]
+DebugMon_Handler        0x1fffaa67     0xe  Code  Gb  ci100x_it.o [1]
+Decodeindex             0x2000c388     0x2  Data  Gb  adpcm.o [1]
+Decodepredsample        0x2000c38c     0x4  Data  Gb  adpcm.o [1]
+DelayMs(int)            0x1fff5339    0x16  Code  Gb  smt_cs42l52.o [1]
+ES8374_CloseSpeaker     0x1fff5d11     0x2  Code  Gb  smt_cs42l52.o [1]
+ES8374_OpenSpeaker      0x1fff5d13     0x2  Code  Gb  smt_cs42l52.o [1]
+EXTI0_IRQHandler        0x1fffa4f7     0x2  Code  Gb  ci100x_it.o [1]
+EXTI1_IRQHandler        0x1fffa4f9    0x1a  Code  Gb  ci100x_it.o [1]
+EXTI2_IRQHandler        0x1fffa513     0x2  Code  Gb  ci100x_it.o [1]
+EXTI3_IRQHandler        0x1fffa515     0x2  Code  Gb  ci100x_it.o [1]
+EXTI4_IRQHandler        0x1fffa939     0x2  Code  Gb  ci100x_it.o [1]
+FPU_IRQHandler          0x1fffa445     0x2  Code  Gb  ci100x_it.o [1]
+FftVad_proc(int)        0x1fff0345    0x74  Code  Gb  ci100x_asr.o [3]
+FindCmdIndex(char *, double)
+                        0x1fff2ab9    0x8c  Code  Gb  task_asr.o [1]
+GPIO0_IRQHandler        0x1fffa55f    0x1e  Code  Gb  ci100x_it.o [1]
+GPIO1_IRQHandler        0x1fffa93b     0xe  Code  Gb  ci100x_it.o [1]
+GPIO_DATA_Inv           0x1fff6fdd    0x36  Code  Gb  ci100x_gpio.o [1]
+GPIO_DATA_Set           0x1fff6fb3    0x2a  Code  Gb  ci100x_gpio.o [1]
+GPIO_INTClear           0x1fff7013    0x22  Code  Gb  ci100x_gpio.o [1]
+GPIO_Input              0x1fff7073    0x32  Code  Gb  ci100x_gpio.o [1]
+GPIO_Output             0x1fff7035    0x3e  Code  Gb  ci100x_gpio.o [1]
+GPIO_ReadDATA           0x1fff6f9d    0x16  Code  Gb  ci100x_gpio.o [1]
+GetCurrentMs()          0x1fff1c73    0x5a  Code  Gb  main.o [1]
+GetNVUserData()         0x1fff36c1    0x44  Code  Gb  user_main.o [1]
+GetStatus()             0x1ffef1e9    0x62  Code  Gb  task_asr_in.o [3]
+GetUserPara(int, int, int)
+                        0x1fff2823    0xf6  Code  Gb  task_asr.o [1]
+HEAP$$Base              0x70000000           --   Gb  - Linker created -
+HEAP$$Limit             0x70300000           --   Gb  - Linker created -
+HardFault_Handler       0x1fffaa2f     0xe  Code  Gb  ci100x_it.o [1]
+I2C0_IRQHandler         0x1fffa5b3    0x90  Code  Gb  ci100x_it.o [1]
+I2C1_IRQHandler         0x1fffa643    0x7a  Code  Gb  ci100x_it.o [1]
+I2CMutex                0x2000c400     0x4  Data  Gb  ci100x_global.o [1]
+I2C_ReadEs8374Data(unsigned int)
+                        0x1fff5457     0x2  Code  Gb  smt_cs42l52.o [1]
+I2C_ReadEs8388Data(unsigned int)
+                        0x1fff53d5    0x80  Code  Gb  smt_cs42l52.o [1]
+I2C_WriteEs8374Data(unsigned int, char)
+                        0x1fff5455     0x2  Code  Gb  smt_cs42l52.o [1]
+I2C_WriteEs8388Data(unsigned int, char)
+                        0x1fff534f    0x7c  Code  Gb  smt_cs42l52.o [1]
+IIS0_SlaveRxSDRAMpcm_handler()
+                        0x1fffa7d5    0xec  Code  Gb  ci100x_it.o [1]
+IISCFG                  0x1fff6474    0x60  Data  Lc  smt_cs42l52.o [1]
+IISDMA_ADDRRollBackINT  0x1fff880b    0x34  Code  Gb  ci100x_iisdma.o [3]
+IISDMA_ChannelENConfig  0x1fff87d9    0x32  Code  Gb  ci100x_iisdma.o [3]
+IISDMA_ChannelIntENConfig
+                        0x1fff883f    0x30  Code  Gb  ci100x_iisdma.o [3]
+IISDMA_DATABUSBUSY      0x1fff894f     0xa  Code  Gb  ci100x_iisdma.o [3]
+IISDMA_DMICModeConfig   0x1fff87c1    0x18  Code  Gb  ci100x_iisdma.o [3]
+IISDMA_EN               0x1fff886f    0x1a  Code  Gb  ci100x_iisdma.o [3]
+IISDMA_IRQHandler       0x1fffa8c1    0x42  Code  Gb  ci100x_it.o [1]
+IIS_BUSSCK_LRCKConfig(IIS_TypeDef *, IIS_BUSSCK_LRCKx)
+                        0x1fff8449    0x18  Code  Gb  ci100x_iis.o [3]
+IIS_CHSELConfig         0x1fff84ab    0x38  Code  Gb  ci100x_iis.o [3]
+IIS_EN                  0x1fff8493    0x18  Code  Gb  ci100x_iis.o [3]
+IIS_RXCTRLConfig(IIS_TypeDef *, IIS_TXRXDATAWIDEx, IIS_RXFIFOLEVELx)
+                        0x1fff8411    0x20  Code  Gb  ci100x_iis.o [3]
+IIS_RXEN                0x1fff8431    0x18  Code  Gb  ci100x_iis.o [3]
+IIS_RXMODEConfig        0x1fff84e3    0x2c  Code  Gb  ci100x_iis.o [3]
+IIS_RXTXDATAFMTConfig(IIS_TypeDef *, IIS_TXRXDATAFMTx)
+                        0x1fff8461    0x32  Code  Gb  ci100x_iis.o [3]
+IIS_TXCTRLConfig(IIS_TypeDef *, IIS_TXRXDATAWIDEx, IIS_TXFIFOLEVELx, IIS_TXCHNUMx)
+                        0x1fff83cd    0x2c  Code  Gb  ci100x_iis.o [3]
+IIS_TXEN                0x1fff83f9    0x18  Code  Gb  ci100x_iis.o [3]
+IISxDMA_RADDR           0x1fff8889    0x18  Code  Gb  ci100x_iisdma.o [3]
+IISxDMA_RNUM            0x1fff88a1    0x2e  Code  Gb  ci100x_iisdma.o [3]
+IISxDMA_TADDR0          0x1fff88cf    0x1a  Code  Gb  ci100x_iisdma.o [3]
+IISxDMA_TADDR1          0x1fff890f    0x1a  Code  Gb  ci100x_iisdma.o [3]
+IISxDMA_TNUM0           0x1fff88e9    0x26  Code  Gb  ci100x_iisdma.o [3]
+IISxDMA_TNUM1           0x1fff8929    0x26  Code  Gb  ci100x_iisdma.o [3]
+IISx_RXInit             0x1fff8605    0xe0  Code  Gb  ci100x_iis.o [3]
+IISx_TXInit             0x1fff850f    0xf6  Code  Gb  ci100x_iis.o [3]
+IISx_TXInit_noenable(IIS_TypeDef *, IIS_DMA_TXInit_Typedef *)
+                        0x1fff86e5    0xcc  Code  Gb  ci100x_iis.o [3]
+IR_IRQHandler           0x1fffa949    0x12  Code  Gb  ci100x_it.o [1]
+ISResult(float)         0x1ffef4e1    0xc4  Code  Gb  task_asr_in.o [3]
+IWDG_IRQHandler         0x1fffa3b7    0x86  Code  Gb  ci100x_it.o [1]
+IWDG_disable            0x1fff98fb    0x1c  Code  Gb  ci100x_wdt.o [1]
+IWDG_feed()             0x1fff715d    0x12  Code  Gb  smt_iwdg.o [1]
+IWDG_init               0x1fff98d5    0x26  Code  Gb  ci100x_wdt.o [1]
+InStream_Read           0x1fffb901    0x22  Code  Lc  lz77_init.o [8]
+IndexTable              0x1fff8a84    0x10  Data  Lc  adpcm.o [1]
+InitCpuRstState(Reset_Type *)
+                        0x1fff1a1d    0x64  Code  Gb  main.o [1]
+InitData(void *, unsigned int, unsigned int, unsigned int)
+                        0x1fff0a63    0x64  Code  Gb  ci100x_asr.o [3]
+InitStructdata          0x20005ebc    0x3c  Data  Gb  ci100x_asr.o [3]
+IsSilencePdf(int)       0x1ffe924b    0x38  Code  Gb  cikd_decoder.o [4]
+IsSpecialWords(char *)  0x1fff2919    0x5e  Code  Gb  task_asr.o [1]
+IsWakeupWords(char *)   0x1fff2977    0x44  Code  Gb  task_asr.o [1]
+Key_Scan()              0x1fff34f1   0x100  Code  Gb  user_main.o [1]
+Lock_Ckconfig           0x1fff3b67     0x2  Code  Gb  ci100x_scu.o [1]
+Lock_Rstconfig          0x1fff3b69     0x2  Code  Gb  ci100x_scu.o [1]
+M7_0                    0x20006154     0x1  Data  Gb  smt_spiflash.o [1]
+MCUwork                 0x2000c4a0     0x1  Data  Gb  Task_key.o [1]
+MacroInit(int)          0x1fff275b    0xc8  Code  Gb  task_asr.o [1]
+MainCallback()          0x1fff382d    0x22  Code  Gb  user_main.o [1]
+MemManage_Handler       0x1fffaa3d     0xe  Code  Gb  ci100x_it.o [1]
+NMI_Handler             0x1fffaa21     0xe  Code  Gb  ci100x_it.o [1]
+NVIC_ClearPendingIRQ(IRQn)
+                        0x1ffee04d    0x14  Code  Lc  task_asr_in.o [3]
+NVIC_DisableIRQ(IRQn)   0x1fffa38d    0x14  Code  Lc  ci100x_it.o [1]
+NVIC_DisableIRQ(IRQn)   0x1fff1a09    0x14  Code  Lc  main.o [1]
+NVIC_DisableIRQ(IRQn)   0x1ffefe6b    0x14  Code  Lc  ci100x_asr.o [3]
+NVIC_EnableIRQ(IRQn)    0x1fffa379    0x14  Code  Lc  ci100x_it.o [1]
+NVIC_EnableIRQ(IRQn)    0x1fff19f5    0x14  Code  Lc  main.o [1]
+NVIC_EnableIRQ(IRQn)    0x1ffefe57    0x14  Code  Lc  ci100x_asr.o [3]
+NVIC_EnableIRQ(IRQn)    0x1ffee039    0x14  Code  Lc  task_asr_in.o [3]
+NVIC_Init               0x1fff52c7    0x5c  Code  Gb  misc.o [1]
+NVIC_PriorityGroupConfig
+                        0x1fff52bd     0xa  Code  Gb  misc.o [1]
+OS_GetCurrentMs(int)    0x1fff2249    0x4a  Code  Gb  main.o [1]
+OutStream_Write         0x1fffb923    0x40  Code  Lc  lz77_init.o [8]
+PendSV_Handler          0x1fff982d          Code  Gb  portasm.o [1]
+PlayFlag                0x2000616c     0x1  Data  Lc  task_asr_in.o [3]
+PrintMidResult          0x20005fb0     0x4  Data  Lc  task_asr_in.o [3]
+QSPINoBootSet           0x1fff8cc9    0x14  Code  Gb  ci100x_spiflash.o [1]
+QSPI_Init               0x1fff657f    0xbe  Code  Gb  smt_spiflash.o [1]
+Region$$Table$$Base     0x1fffbd24           --   Gb  - Linker created -
+Region$$Table$$Limit    0x1fffbd5c           --   Gb  - Linker created -
+ReservedFunc            0x1ffef261    0x5e  Code  Gb  task_asr_in.o [3]
+Reset_PlayVoice_EndTime()
+                        0x1fff5cef     0xc  Code  Gb  smt_cs42l52.o [1]
+SCU_IRQHandler          0x1fffa6bd   0x118  Code  Gb  ci100x_it.o [1]
+SHT$$INIT_ARRAY$$Base   0x1fffbdf8           --   Gb  - Linker created -
+SHT$$INIT_ARRAY$$Limit  0x1fffbdfc           --   Gb  - Linker created -
+SHT$$PREINIT_ARRAY$$Base
+                        0x1fffbdf8           --   Gb  - Linker created -
+SHT$$PREINIT_ARRAY$$Limit
+                        0x1fffbdf8           --   Gb  - Linker created -
+SPI1_IRQHandler         0x1fffa903    0x2c  Code  Gb  ci100x_it.o [1]
+SPI2_IRQHandler         0x1fffa92f     0xa  Code  Gb  ci100x_it.o [1]
+SPIFLASH_DMAC_M2P_P2MConfig(DMACChannelx, SPIDMAInit_Struct *)
+                        0x1fff8cdd   0x108  Code  Lc  ci100x_spiflash.o [1]
+SPIFlash_BlockErase32kTbe1(SPICInit_Typedef *, unsigned int)
+                        0x1fff8cad     0x4  Code  Gb  ci100x_spiflash.o [1]
+SPIFlash_BlockErase64kTbe2(SPICInit_Typedef *, unsigned int)
+                        0x1fff8cb1     0x4  Code  Gb  ci100x_spiflash.o [1]
+SPIFlash_BusMode(SPICInit_Typedef *, Spi_BusMode)
+                        0x1fff8c09     0x4  Code  Gb  ci100x_spiflash.o [1]
+SPIFlash_CSdeselecteTime(SPICInit_Typedef *, unsigned int, unsigned int)
+                        0x1fff8cb9     0x8  Code  Gb  ci100x_spiflash.o [1]
+SPIFlash_ChipEraseTce(SPICInit_Typedef *, unsigned int)
+                        0x1fff8cb5     0x4  Code  Gb  ci100x_spiflash.o [1]
+SPIFlash_CommandConfig(SPICInit_Typedef *, SpiFlash_CmdCode, SpiFlash_CmdType, FunctionalState)
+                        0x1fff8c4b    0x1a  Code  Gb  ci100x_spiflash.o [1]
+SPIFlash_CommandVaild(SPICInit_Typedef *, FunctionalState)
+                        0x1fff8c81    0x16  Code  Gb  ci100x_spiflash.o [1]
+SPIFlash_DMARequestSize(SPICInit_Typedef *, DMARequestSizeBytes)
+                        0x1fff8c9d     0x4  Code  Gb  ci100x_spiflash.o [1]
+SPIFlash_FastRead(SPICInit_Typedef *, FunctionalState)
+                        0x1fff8c31    0x16  Code  Gb  ci100x_spiflash.o [1]
+SPIFlash_FastReadIO(SPICInit_Typedef *, Fast_ReadIO)
+                        0x1fff8c1f    0x12  Code  Gb  ci100x_spiflash.o [1]
+SPIFlash_Interrupt(SPICInit_Typedef *)
+                        0x1fff8c97     0x6  Code  Gb  ci100x_spiflash.o [1]
+SPIFlash_PageProgramTpp(SPICInit_Typedef *, unsigned int)
+                        0x1fff8ca5     0x4  Code  Gb  ci100x_spiflash.o [1]
+SPIFlash_PowerDownTime(SPICInit_Typedef *, unsigned int, unsigned int)
+                        0x1fff8cc1     0x8  Code  Gb  ci100x_spiflash.o [1]
+SPIFlash_SectorErase4kTse(SPICInit_Typedef *, unsigned int)
+                        0x1fff8ca9     0x4  Code  Gb  ci100x_spiflash.o [1]
+SPIFlash_SpiclkMode(SPICInit_Typedef *, Spi_ClkMode)
+                        0x1fff8c0d    0x12  Code  Gb  ci100x_spiflash.o [1]
+SPIFlash_WaitCommandVaild(SPICInit_Typedef *)
+                        0x1fff8c65    0x1c  Code  Gb  ci100x_spiflash.o [1]
+SPIFlash_WrRdAddr(SPICInit_Typedef *, unsigned int)
+                        0x1fff8ca1     0x4  Code  Gb  ci100x_spiflash.o [1]
+SPIFlash_WrRdNums(SPICInit_Typedef *, unsigned int)
+                        0x1fff8c47     0x4  Code  Gb  ci100x_spiflash.o [1]
+SPIFlash_WrStatusRegTime(SPICInit_Typedef *, unsigned int)
+                        0x1fff8c01     0x8  Code  Gb  ci100x_spiflash.o [1]
+SPI_mode                0x20006158     0x4  Data  Lc  smt_spiflash.o [1]
+SUART0_IRQHandler       0x1fffa5ad     0x2  Code  Gb  ci100x_it.o [1]
+SUART1_IRQHandler       0x1fffa5af     0x4  Code  Gb  ci100x_it.o [1]
+SVC_Handler             0x1fff9885          Code  Gb  portasm.o [1]
+S_CircleBuffer_IsEmpty  0x1fffae5d    0x10  Code  Gb  ci100x_suart.o [1]
+S_CircleBuffer_IsFull   0x1fffae6d    0x1c  Code  Gb  ci100x_suart.o [1]
+S_CircleBuffer_Read     0x1fffae89    0x2e  Code  Gb  ci100x_suart.o [1]
+S_CircleBuffer_Write    0x1fffaeb7    0x2c  Code  Gb  ci100x_suart.o [1]
+S_UART1_int             0x1fffae59     0x4  Code  Gb  ci100x_suart.o [1]
+S_Uart_Interrupt(unsigned int)
+                        0x1fffadd9    0x78  Code  Lc  ci100x_suart.o [1]
+S_Uart_Table            0x20005d28   0x110  Data  Gb  ci100x_suart.o [1]
+Scu_Iwdg_RstSys_Config  0x1fff43d7    0x22  Code  Gb  ci100x_scu.o [1]
+Scu_SetClkDiv_Enable    0x1fff4b49   0x208  Code  Gb  ci100x_scu.o [1]
+Scu_SetDeviceGate       0x1fff3e39   0x576  Code  Gb  ci100x_scu.o [1]
+Scu_SetIISCLK_Config    0x1fff4d51    0x82  Code  Gb  ci100x_scu.o [1]
+Scu_SetIOReuse          0x1fff4f69   0x2e4  Code  Gb  ci100x_scu.o [1]
+Scu_SetWakeup_Source    0x1fff4dd9   0x156  Code  Gb  ci100x_scu.o [1]
+Scu_Setdevice_Reset     0x1fff444d   0x33a  Code  Gb  ci100x_scu.o [1]
+Scu_Setdevice_ResetRelease
+                        0x1fff47d9   0x35c  Code  Gb  ci100x_scu.o [1]
+Scu_Setdiv_Parameter    0x1fff3b6b   0x2ce  Code  Gb  ci100x_scu.o [1]
+Scu_SoftwareRst_System  0x1fff43af    0x28  Code  Gb  ci100x_scu.o [1]
+SetPlayFlagOFF()        0x1ffefa05     0x8  Code  Gb  task_asr_in.o [3]
+SetPlayFlagON()         0x1ffef9fd     0x8  Code  Gb  task_asr_in.o [3]
+SingleDualSw(int)       0x1fff0023    0x22  Code  Gb  ci100x_asr.o [3]
+SingleOrDual            0x2000c3c0     0x4  Data  Lc  ci100x_asr.o [3]
+SpiFlash_Erase          0x1fff91e5    0xbe  Code  Gb  ci100x_spiflash.o [1]
+SpiFlash_FastReadSectorQuadIO
+                        0x1fff9579   0x13e  Code  Gb  ci100x_spiflash.o [1]
+SpiFlash_Powerdown      0x1fff90ed    0x86  Code  Gb  ci100x_spiflash.o [1]
+SpiFlash_Protect        0x1fff96b7    0xb8  Code  Gb  ci100x_spiflash.o [1]
+SpiFlash_ReadData       0x1fff9391    0xd6  Code  Gb  ci100x_spiflash.o [1]
+SpiFlash_ReadDataSector
+                        0x1fff9467   0x102  Code  Gb  ci100x_spiflash.o [1]
+SpiFlash_ReadJedecID    0x1fff8e9d    0xba  Code  Gb  ci100x_spiflash.o [1]
+SpiFlash_ReadManfacturerIDDeviceID
+                        0x1fff8de5    0xb8  Code  Gb  ci100x_spiflash.o [1]
+SpiFlash_ReadStatusReg  0x1fff8f57    0xb4  Code  Gb  ci100x_spiflash.o [1]
+SpiFlash_ReleasePowerdown
+                        0x1fff9173    0x72  Code  Gb  ci100x_spiflash.o [1]
+SpiFlash_Reset_Set      0x1fff9779    0x9a  Code  Gb  ci100x_spiflash.o [1]
+SpiFlash_SequencePageProgram
+                        0x1fff92a3    0xee  Code  Gb  ci100x_spiflash.o [1]
+SpiFlash_WrStatusReg    0x1fff900b    0xe2  Code  Gb  ci100x_spiflash.o [1]
+SpiWrMutex              0x2000c3fc     0x4  Data  Gb  ci100x_global.o [1]
+StepSizeTable           0x1fff89d0    0xb4  Data  Lc  adpcm.o [1]
+Suart2_Init()           0x1fff7589    0xd2  Code  Gb  com2_task.o [1]
+SwitchOnOffMidResultPrint(int)
+                        0x1ffef1cd    0x16  Code  Gb  task_asr_in.o [3]
+SwitchVad               0x1fff0d31    0x1a  Code  Gb  ci100x_asr.o [3]
+Switch_Language_play_voice()
+                        0x1fff35f1     0x2  Code  Gb  user_main.o [1]
+SysTick_Handler()       0x1fff68e9    0x28  Code  Gb  port.o [1]
+SystemInit()            0x1fffbac9   0x174  Code  Gb  system_ci100x.o [1]
+TIM0_IRQHandler         0x1fffa95b     0xe  Code  Gb  ci100x_it.o [1]
+TIM1_IRQHandler         0x1fffa969    0x2e  Code  Gb  ci100x_it.o [1]
+TIM2_IRQHandler         0x1fffa9f5    0x16  Code  Gb  ci100x_it.o [1]
+TIM3_IRQHandler         0x1fffaa0b    0x16  Code  Gb  ci100x_it.o [1]
+TIMx_us                 0x1fff1039    0x7c  Code  Gb  smt_timer.o [1]
+UART0_IRQHandler        0x1fffa57d    0x10  Code  Gb  ci100x_it.o [1]
+UART1_IRQHandler        0x1fffa58d    0x20  Code  Gb  ci100x_it.o [1]
+UART3_REIEIVE           0x20005d24     0x4  Data  Gb  ci100x_suart.o [1]
+UARTPollingConfig       0x1fff70a5    0xb0  Code  Gb  smt_uart.o [1]
+UART_BAUDRATEConfig     0x1ffefcb1    0x28  Code  Gb  ci100x_uart.o [1]
+UART_CRConfig           0x1ffefd3d    0x1a  Code  Gb  ci100x_uart.o [1]
+UART_EN                 0x1ffefd27    0x16  Code  Gb  ci100x_uart.o [1]
+UART_FIFOClear          0x1ffefcd9     0xa  Code  Gb  ci100x_uart.o [1]
+UART_IntClear           0x1ffefda7    0x1a  Code  Gb  ci100x_uart.o [1]
+UART_IntMaskConfig      0x1ffefd79    0x2e  Code  Gb  ci100x_uart.o [1]
+UART_LCRConfig          0x1ffefce3    0x2c  Code  Gb  ci100x_uart.o [1]
+UART_RXFIFOConfig       0x1ffefd57    0x12  Code  Gb  ci100x_uart.o [1]
+UART_TXFIFOByteWordConfig
+                        0x1ffefd0f    0x18  Code  Gb  ci100x_uart.o [1]
+UART_TXFIFOConfig       0x1ffefd69    0x10  Code  Gb  ci100x_uart.o [1]
+UartPollingReceiveData(UART_TypeDef *)
+                        0x1ffefdcb     0xc  Code  Gb  ci100x_uart.o [1]
+UartPollingSenddata     0x1ffefdc1     0xa  Code  Gb  ci100x_uart.o [1]
+Unlock_Ckconfig         0x1fff3b43    0x12  Code  Gb  ci100x_scu.o [1]
+Unlock_Rstconfig()      0x1fff3b55    0x12  Code  Gb  ci100x_scu.o [1]
+UsageFault_Handler      0x1fffaa59     0xe  Code  Gb  ci100x_it.o [1]
+UserTaskKeyScan(void *)
+                        0x1fff3705    0x48  Code  Gb  user_main.o [1]
+UserTaskManageProcess(void *)
+                        0x1fff374d    0x5a  Code  Gb  user_main.o [1]
+VAD_IRQHandler()        0x1fff0649    0xe6  Code  Gb  ci100x_asr.o [3]
+VadType                 0x2000c490     0x4  Data  Lc  task_asr_in.o [3]
+Vad_open                0x1fff0b01    0x84  Code  Gb  ci100x_asr.o [3]
+Vad_open_lowpower()     0x1fff0d4b    0x16  Code  Gb  ci100x_asr.o [3]
+Vad_open_softvad()      0x1fff0ba1    0x8a  Code  Gb  ci100x_asr.o [3]
+Vadpcm_xQueue           0x2000c3e4     0x4  Data  Gb  ci100x_global.o [1]
+WAV                     0x20006080    0x2c  Data  Gb  smt_cs42l52.o [1]
+WWDG_IRQHandler         0x1fffa3a1    0x16  Code  Gb  ci100x_it.o [1]
+WakeupMutex             0x2000c3f8     0x4  Data  Gb  ci100x_global.o [1]
+WavFileSize             0x200060cc     0x4  Data  Gb  smt_cs42l52.o [1]
+_GenldFullNoMb          0x1ffeda01   0x262  Code  Lc  xprintffull_nomb.o [6]
+_GetMaxallocMem(int (*)())
+                        0x1ffe8141     0xe  Code  Gb  cikd_decoder.o [4]
+_GetN                   0x1ffec7c1    0x22  Code  Lc  xscanfsmall_nomb.o [6]
+_GetNetInfo2(int *, int *, int *, int *, int *)
+                        0x1ffe92dd    0x2a  Code  Lc  cikd_decoder.o [4]
+_GetintSmallNoMb        0x1ffecaeb   0x1d0  Code  Lc  xscanfsmall_nomb.o [6]
+_GetstrSmallNoMb        0x1ffeca37    0xb4  Code  Lc  xscanfsmall_nomb.o [6]
+_IO_init()              0x1fff1a81   0x17e  Code  Gb  main.o [1]
+_LdtobFullNoMb          0x1ffed615   0x3e6  Code  Lc  xprintffull_nomb.o [6]
+_LitobFullNoMb          0x1ffed50d   0x106  Code  Lc  xprintffull_nomb.o [6]
+_PrintfFullNoMb         0x1ffecf25   0x5e2  Code  Gb  xprintffull_nomb.o [6]
+_PutcharsFullNoMb       0x1ffedc63    0x2e  Code  Lc  xprintffull_nomb.o [6]
+_SNProut                0x1ffebaeb    0x1a  Code  Gb  xsnprout.o [6]
+_SProut                 0x1ffebb3f     0xa  Code  Gb  xsprout.o [6]
+_SScin                  0x1ffebac7    0x1e  Code  Gb  xsscin.o [6]
+_ScanfSmallNoMb         0x1ffec7fd   0x234  Code  Gb  xscanfsmall_nomb.o [6]
+_Stoflt                 0x1fff9a75   0x1b4  Code  Gb  xstoflt.o [6]
+_Stopfx                 0x1fff9945   0x130  Code  Gb  xstopfx.o [6]
+_Stoxflt                0x1fff9e29   0x1cc  Code  Gb  xstoxflt.o [6]
+_UngetN                 0x1ffec7e3    0x1a  Code  Lc  xscanfsmall_nomb.o [6]
+__aeabi_cdcmpeq         0x1fffa301          Code  Gb  DblCmpEq.o [7]
+__aeabi_cdcmple         0x1ffedeb1          Code  Gb  DblCmpLe.o [7]
+__aeabi_cdrcmple        0x1ffedee1          Code  Gb  DblCmpGe.o [7]
+__aeabi_d2f             0x1ffec449          Code  Gb  DblToFlt.o [7]
+__aeabi_d2iz            0x1ffec341          Code  Gb  DblToI32.o [7]
+__aeabi_d2uiz           0x1ffec36d          Code  Gb  DblToI32.o [7]
+__aeabi_dadd            0x1ffec259          Code  Gb  DblAdd.o [7]
+__aeabi_ddiv            0x1ffebe6d          Code  Gb  DblDiv.o [7]
+__aeabi_dmul            0x1ffec0b5          Code  Gb  DblMul.o [7]
+__aeabi_dsub            0x1ffec4d9          Code  Gb  DblSub.o [7]
+__aeabi_errno_addr      0x1ffecd41     0x6  Code  Gb  errno.o [6]
+__aeabi_f2d             0x1ffec3f9          Code  Gb  FltToDbl.o [7]
+__aeabi_i2d             0x1ffebe3d          Code  Gb  I32ToDbl.o [7]
+__aeabi_ldiv0           0x1ffee035          Code  Gb  I64DivZer.o [8]
+__aeabi_memclr          0x1ffebae5          Code  Gb  ABImemclr.o [8]
+__aeabi_memclr4         0x1ffebac1          Code  Gb  ABImemclr4.o [8]
+__aeabi_memset          0x1ffec6d5          Code  Gb  ABImemset.o [8]
+__aeabi_memset4         0x1ffebb05          Code  Gb  ABImemset48.o [8]
+__aeabi_memset8         0x1ffebb05          Code  Gb  ABImemset48.o [8]
+__aeabi_ui2d            0x1ffebe51          Code  Gb  I32ToDbl.o [7]
+__aeabi_uldivmod        0x1ffedd81          Code  Gb  I64DivMod.o [8]
+__call_ctors            0x1fffbd7d    0x18  Code  Gb  cppinit.o [6]
+__ci100x_iar_program_start
+                        0x1fffbddf     0xe  Code  Gb  ci100x_startup.o [1]
+__cmain                 0x1fffbdb1          Code  Gb  cmain.o [8]
+__data_GetMemChunk      0x1ffec795    0x2c  Code  Gb  xgetmemchunk.o [6]
+__exit                  0x1ffedcad    0x14  Code  Gb  exit.o [9]
+__iar_Dnorm             0x1ffede6f    0x42  Code  Gb  xdnorm.o [7]
+__iar_Dscale            0x1ffedf11   0x114  Code  Gb  xdscale.o [7]
+__iar_Dtentox           0x1fff9c85   0x13e  Code  Gb  xdtento.o [7]
+__iar_Dunscale          0x1fffa321    0x56  Code  Gb  xdunscal.o [7]
+__iar_Errno             0x20006168     0x4  Data  Gb  errno.o [6]
+__iar_FDnorm            0x1fffa029    0x26  Code  Gb  xfdnorm.o [7]
+__iar_FLog              0x1fff8a99   0x12a  Code  Gb  xflog.o [7]
+__iar_Memchr            0x1ffecce9          Code  Gb  memchr.o [8]
+__iar_Memset            0x1ffec6d5          Code  Gb  ABImemset.o [8]
+__iar_Memset4_word      0x1ffebb0d          Code  Gb  ABImemset48.o [8]
+__iar_Memset8_word      0x1ffebb0d          Code  Gb  ABImemset48.o [8]
+__iar_Memset_word       0x1ffec6dd          Code  Gb  ABImemset.o [8]
+__iar_Stod              0x1fff7eb9     0x4  Code  Gb  xstod.o [7]
+__iar_Stodx             0x1fff7d55   0x14e  Code  Gb  xstod.o [7]
+__iar_Stolx             0x1ffedcc1    0x86  Code  Gb  xstol.o [6]
+__iar_Stoul             0x1ffebde9     0x4  Code  Gb  xstoul.o [6]
+__iar_Stoulx            0x1ffebca1   0x142  Code  Gb  xstoul.o [6]
+__iar_Strchr            0x1ffeccd1          Code  Gb  strchr.o [8]
+__iar_Strstr            0x1ffebc75    0x2c  Code  Gb  strstr.o [6]
+__iar_cstart_call_ctors
+                        0x1fffbd5d    0x20  Code  Gb  cmain_call_ctors.o [8]
+__iar_d2uiz             0x1ffec379          Code  Gb  DblToI32.o [7]
+__iar_dadd              0x1ffec26d          Code  Gb  DblAdd.o [7]
+__iar_data_init3        0x1fffbcfd    0x28  Code  Gb  data_init.o [8]
+__iar_debug_exceptions  0x1ffebc4e     0x1  Data  Gb  unwind_debug.o [9]
+__iar_dlfree            0x1ffeb50f   0x512  Code  Gb  dlmalloc.o [6]
+__iar_dlib_perthread_access
+                        0x1ffedd47     0x2  Code  Gb  xtls.o [6]
+__iar_dlmalloc          0x1ffeb251   0x2b2  Code  Gb  dlmalloc.o [6]
+__iar_dsub              0x1ffec4ed          Code  Gb  DblSub.o [7]
+__iar_dsubStart         0x1ffec4ff          Code  Gb  DblSub.o [7]
+__iar_gm_               0x2000bc78   0x1d8  Data  Gb  dlmalloc.o [6]
+__iar_init_vfp          0x1fffbd95          Code  Gb  fpinit_M.o [7]
+__iar_lz77_init3        0x1fffb963   0x164  Code  Gb  lz77_init.o [8]
+__iar_program_start     0x1fffbded          Code  Gb  cstartup_M.o [8]
+__iar_strcmp            0x1fff3ae9          Code  Gb  strcmp_unaligned.o [8]
+__iar_ui2d              0x1ffebe55          Code  Gb  I32ToDbl.o [7]
+__iar_unaligned___aeabi_memcpy
+                        0x1ffeba29          Code  Gb  ABImemcpy_unaligned.o [8]
+__iar_unaligned___aeabi_memcpy4
+                        0x1ffeba49          Code  Gb  ABImemcpy_unaligned.o [8]
+__iar_unaligned___aeabi_memcpy8
+                        0x1ffeba49          Code  Gb  ABImemcpy_unaligned.o [8]
+__iar_unaligned___aeabi_memmove
+                        0x1ffecead          Code  Gb  ABImemmove_unaligned.o [8]
+__iar_unaligned___aeabi_memmove4
+                        0x1ffecead          Code  Gb  ABImemmove_unaligned.o [8]
+__iar_unaligned___aeabi_memmove8
+                        0x1ffecead          Code  Gb  ABImemmove_unaligned.o [8]
+__iar_unaligned_memcmp  0x1ffebbed          Code  Gb  memcmp_unaligned.o [8]
+__iar_unaligned_strcmp  0x1fff3ae9          Code  Gb  strcmp_unaligned.o [8]
+__iar_unaligned_strcpy  0x1ffec3b5          Code  Gb  strcpy_unaligned.o [8]
+__iar_unaligned_strncpy
+                        0x1ffebb49          Code  Gb  strncpy_unaligned.o [8]
+__iar_vfp_atof          0x1fff3ad9    0x10  Code  Gb  atof.o [7]
+__iar_zero_init3        0x1ffeba9f    0x22  Code  Gb  zero_init3.o [8]
+__low_level_init        0x1fffbdcb     0x4  Code  Gb  low_level_init.o [6]
+__sti__routine          0x1ffefe4d     0xa  Code  Lc  ci100x_asr.o [3]
+__vector_table          0x1ffe8000   0x100  Data  Lc  ci100x_startup.o [1]
+__vector_table          0x1ffe8100          Data  Gb  vector_table_M.o [8]
+_call_main              0x1fffbdbd          Code  Gb  cmain.o [8]
+_delay(unsigned int)    0x1fff3b2d    0x16  Code  Lc  ci100x_scu.o [1]
+_exit                   0x1fffbdd5          Code  Gb  cexit.o [8]
+_main                   0x1fffbdc7          Code  Gb  cmain.o [8]
+_printf                 0x1ffefe1b    0x22  Code  Gb  ci100x_uart.o [1]
+_putchar(char)          0x1ffefdd7    0x1c  Code  Gb  ci100x_uart.o [1]
+_puts                   0x1ffefdf3    0x28  Code  Gb  ci100x_uart.o [1]
+abort                   0x1ffec78d     0x6  Code  Gb  abort.o [6]
+adkey_handler()         0x1fffad1d    0xac  Code  Gb  smt_adc.o [1]
+adpt_clear()            0x1ffee135     0xa  Code  Gb  task_asr_in.o [3]
+adpt_frm_cnt            0x20006104     0x4  Data  Lc  task_asr_in.o [3]
+adpt_setskp_active(void *, int *)
+                        0x1ffee13f    0x86  Code  Gb  task_asr_in.o [3]
+arm_bitreversal_16      0x1fffbca7          Code  Gb  arm_bitreversal2_512.o [5]
+arm_bitreversal_32_512  0x1fffbc3d          Code  Gb  arm_bitreversal2_512.o [5]
+asrCheckAcSum(void *, void *, int *)
+                        0x1ffea411    0x60  Code  Gb  cikd_decoder.o [4]
+asrCreate(char const *, char const *)
+                        0x1ffea2e5    0x2e  Code  Gb  cikd_decoder.o [4]
+asrGetActive(void *, int *, int *)
+                        0x1ffea4df    0x18  Code  Gb  cikd_decoder.o [4]
+asrGetArcsNotes(void *, int *, int *)
+                        0x1ffea471    0x22  Code  Gb  cikd_decoder.o [4]
+asrGetBeam(void *, float *)
+                        0x1ffea4bd    0x22  Code  Gb  cikd_decoder.o [4]
+asrGetNetInfo(void *, int *, int *, int *, int *)
+                        0x1ffea3d3    0x20  Code  Gb  cikd_decoder.o [4]
+asrGetResult(void *, char **)
+                        0x1ffea35d    0x24  Code  Gb  cikd_decoder.o [4]
+asrGetVersion(void *, char *)
+                        0x1ffea493    0x2a  Code  Gb  cikd_decoder.o [4]
+asrReachedFinal(void *)
+                        0x1ffea351     0xc  Code  Gb  cikd_decoder.o [4]
+asrRecognize(void *, float *, int)
+                        0x1ffea32b    0x1c  Code  Gb  cikd_decoder.o [4]
+asrRelease(void *)      0x1ffea387    0x14  Code  Gb  cikd_decoder.o [4]
+asrSetActive(void *, int, int)
+                        0x1ffea3f3    0x12  Code  Gb  cikd_decoder.o [4]
+asrSetActiveByLevel     0x1ffefa6d    0x5a  Code  Gb  task_asr_in.o [3]
+asrSetAmScale(void *, float)
+                        0x1ffea3ab    0x16  Code  Gb  cikd_decoder.o [4]
+asrSetBeam(void *, float)
+                        0x1ffea39b    0x10  Code  Gb  cikd_decoder.o [4]
+asrSetSACUseSilPhone(void *)
+                        0x1ffea4f7    0x14  Code  Gb  cikd_decoder.o [4]
+asrSetWordsTag(void *, char const *)
+                        0x1ffea3c1    0x12  Code  Gb  cikd_decoder.o [4]
+asrStart(void *, int)   0x1ffea313    0x18  Code  Gb  cikd_decoder.o [4]
+asrStop(void *)         0x1ffea34d     0x4  Code  Gb  cikd_decoder.o [4]
+asr_Cancelprocessing    0x1fff09d9    0x40  Code  Gb  ci100x_asr.o [3]
+asr_CheckAcSum()        0x1ffefafb    0x20  Code  Gb  task_asr_in.o [3]
+asr_GetActive(int *, int *)
+                        0x1ffefb51    0x12  Code  Gb  task_asr_in.o [3]
+asr_GetArcsNotes(int *, int *)
+                        0x1ffefb1b    0x12  Code  Gb  task_asr_in.o [3]
+asr_GetBeam(float *)    0x1ffefb41    0x10  Code  Gb  task_asr_in.o [3]
+asr_GetVersion(char *)  0x1ffefb2d    0x10  Code  Gb  task_asr_in.o [3]
+asr_decode_already_have_result
+                        0x2000c488     0x4  Data  Gb  ci100x_asr.o [3]
+asr_decode_busy         0x20005ea0     0x4  Data  Gb  ci100x_asr.o [3]
+asr_decoder             0x2000c3d0     0x4  Data  Lc  cikd_decoder.o [4]
+asr_frame_decode1(asr_datatype *)
+                        0x1ffee5c5   0x16a  Code  Gb  task_asr_in.o [3]
+asr_frame_decode2(asr_datatype *)
+                        0x1ffee72f   0x162  Code  Gb  task_asr_in.o [3]
+asr_init                0x1fff0759   0x10a  Code  Gb  ci100x_asr.o [3]
+asr_init_softctrl(ASR_InitStruct *)
+                        0x1fff0869   0x164  Code  Gb  ci100x_asr.o [3]
+asr_int_setting()       0x1fff072f    0x2a  Code  Gb  ci100x_asr.o [3]
+asr_rlst                0x20005e5c     0x4  Data  Gb  ci100x_asr.o [3]
+asr_trigger_event       0x20005e3c     0x4  Data  Gb  ci100x_asr.o [3]
+asrmge_ReInitasr()      0x1ffef7b3    0x12  Code  Gb  task_asr_in.o [3]
+asrmge_asrclear()       0x1ffef5a5    0x6e  Code  Gb  task_asr_in.o [3]
+asrmge_dealwith_decode1(asr_datatype *)
+                        0x1ffee8b1    0x88  Code  Gb  task_asr_in.o [3]
+asrmge_dealwith_decode2(asr_datatype *)
+                        0x1ffeee49    0x68  Code  Gb  task_asr_in.o [3]
+asrmge_getResult()      0x1ffef621   0x192  Code  Gb  task_asr_in.o [3]
+asrmge_init()           0x1ffee53f    0x16  Code  Gb  task_asr_in.o [3]
+asrmge_softvad(int)     0x1ffef7c5    0x58  Code  Gb  task_asr_in.o [3]
+asrmge_state_clear()    0x1ffee579    0x1e  Code  Gb  task_asr_in.o [3]
+asrmge_state_reset()    0x1ffee555    0x20  Code  Gb  task_asr_in.o [3]
+asrs_timeout_dealwith(asr_datatype *)
+                        0x1ffef069    0x52  Code  Gb  task_asr_in.o [3]
+asrstate_programdealwith(asr_datatype *)
+                        0x1ffeeef5    0x66  Code  Gb  task_asr_in.o [3]
+asrtimer_counter        0x2000c410     0x4  Data  Gb  ci100x_global.o [1]
+awaken                  0x2000c45c     0x4  Data  Gb  ci100x_global.o [1]
+back_eng                0x20005e6c     0x4  Data  Gb  ci100x_asr.o [3]
+back_update             0x20005e7c     0x4  Data  Gb  ci100x_asr.o [3]
+bestmid_result          0x2000bef8    0x64  Data  Gb  task_asr_in.o [3]
+bestmid_result_count    0x20005fa8     0x4  Data  Gb  task_asr_in.o [3]
+can_receive_number      0x2000c3dc     0x4  Data  Gb  ci100x_can.o [1]
+check_high_count        0x200060f8     0x4  Data  Lc  ci100x_softvad.o [3]
+check_low_count         0x200060fc     0x4  Data  Lc  ci100x_softvad.o [3]
+checksum_char(unsigned char *, unsigned int, unsigned int)
+                        0x1fff9929    0x1c  Code  Gb  Utils.o [1]
+ci100x_malloc(unsigned int)
+                        0x1fff8a95     0x4  Code  Gb  ci100x_malloc.o [1]
+clear_asr_voice_msg_queue()
+                        0x1ffeeaf1    0x48  Code  Gb  task_asr_in.o [3]
+clkgate_state           0x2000c390     0x8  Data  Gb  ci100x_global.o [1]
+cmd2mp3                 0x1fff7cf3    0x48  Code  Gb  sh86313.o [1]
+compute_eng_snr         0x1fff6761    0x22  Code  Gb  ci100x_softvad.o [3]
+compute_win_mineng      0x1fff6705    0x5c  Code  Gb  ci100x_softvad.o [3]
+creatcmdmodel()         0x1ffee365    0xce  Code  Gb  task_asr_in.o [3]
+cur_frame_nums          0x20005fa0     0x4  Data  Gb  task_asr_in.o [3]
+cur_win_min_eng         0x200060dc     0x4  Data  Lc  ci100x_softvad.o [3]
+data_fmtconvert(void *, void *, int)
+                        0x1fff0a1d    0x46  Code  Gb  ci100x_asr.o [3]
+de_codeadpcm_mono_to_stereo
+                        0x1fff5691    0x4c  Code  Gb  smt_cs42l52.o [1]
+deal_vad_end_timeout()  0x1ffeefdd    0x58  Code  Gb  task_asr_in.o [3]
+deal_vad_err_timeout()  0x1ffeef9d    0x2a  Code  Gb  task_asr_in.o [3]
+deal_volume_control(int)
+                        0x1fff364b    0x76  Code  Gb  user_main.o [1]
+debug_work              0x2000c494     0x4  Data  Gb  task_asr_in.o [3]
+decode2_hasresult_anddnnend()
+                        0x1ffeedcd    0x72  Code  Gb  task_asr_in.o [3]
+decode2_hasresult_nodnnend()
+                        0x1ffee97d   0x102  Code  Gb  task_asr_in.o [3]
+decode2_noresult_nodnnend(asr_datatype *)
+                        0x1ffeeb41   0x20a  Code  Gb  task_asr_in.o [3]
+decode_counter          0x200060c4     0x4  Data  Gb  smt_cs42l52.o [1]
+decode_step             0x200060c8     0x4  Data  Gb  smt_cs42l52.o [1]
+decodeaddr              0x200060c0     0x4  Data  Gb  smt_cs42l52.o [1]
+delay(int)              0x1fff7bd3     0xa  Code  Lc  sh86313.o [1]
+delay_time(int)         0x1fff7ebd    0x16  Code  Lc  ci100x_i2c.o [1]
+digits                  0x1ffebdec    0x28  Data  Lc  xstoul.o [6]
+div                     0x1ffee025     0xe  Code  Gb  div.o [6]
+dmul                    0x1fff9c29    0x5a  Code  Lc  xdtento.o [7]
+dnn_pause_cfg()         0x1ffef81d    0x28  Code  Gb  task_asr_in.o [3]
+eng_para_init()         0x1ffefe7f    0x42  Code  Gb  ci100x_asr.o [3]
+error_id                0x2000c058    0xc8  Data  Lc  cikd_decoder.o [4]
+error_id_idx            0x2000c3d4     0x4  Data  Lc  cikd_decoder.o [4]
+es8388_i2c_init()       0x1fff5459    0x54  Code  Gb  smt_cs42l52.o [1]
+exit                    0x1fffbdcf     0x4  Code  Gb  exit.o [6]
+fft_state_timeout       0x2000c298     0x4  Data  Gb  ci100x_asr.o [3]
+fft_vad_clear()         0x1fff0201    0x36  Code  Gb  ci100x_asr.o [3]
+fft_vad_getpsd()        0x1ffefff5    0x2e  Code  Gb  ci100x_asr.o [3]
+fft_vad_init()          0x1fff01b1    0x50  Code  Gb  ci100x_asr.o [3]
+fft_vad_isvoiceon(float, float)
+                        0x1fff023d   0x104  Code  Gb  ci100x_asr.o [3]
+fft_vad_states          0x20005e38     0x1  Data  Gb  ci100x_asr.o [3]
+fftvad_voiceon          0x2000c29c     0x4  Data  Gb  ci100x_asr.o [3]
+flag_1                  0x200060b4     0x4  Data  Gb  smt_cs42l52.o [1]
+flag_2                  0x200060b8     0x4  Data  Gb  smt_cs42l52.o [1]
+flag_start              0x200060bc     0x4  Data  Gb  smt_cs42l52.o [1]
+flashtosdram            0x1fff6521    0x5e  Code  Gb  smt_spiflash.o [1]
+frm_active1             0x20006114     0x4  Data  Lc  task_asr_in.o [3]
+frm_active2             0x20006118     0x4  Data  Lc  task_asr_in.o [3]
+frm_active3             0x2000611c     0x4  Data  Lc  task_asr_in.o [3]
+frm_node1               0x20006108     0x4  Data  Lc  task_asr_in.o [3]
+frm_node2               0x2000610c     0x4  Data  Lc  task_asr_in.o [3]
+frm_node3               0x20006110     0x4  Data  Lc  task_asr_in.o [3]
+g_ESIC_Type             0x2000607c     0x1  Data  Gb  smt_cs42l52.o [1]
+g_VAD_flag_status       0x2000c48c     0x4  Data  Gb  task_asr_in.o [3]
+g_asr_manage_t          0x20005f8c     0xc  Data  Gb  task_asr_in.o [3]
+g_bkeng                 0x2000c3c8     0x4  Data  Gb  task_asr_in.o [3]
+g_can_transmix_complete
+                        0x2000c3d8     0x4  Data  Gb  ci100x_can.o [1]
+g_decord_ver            0x2000c44c     0x4  Data  Gb  ci100x_global.o [1]
+g_dma_translate_ok      0x2000c414     0x4  Data  Gb  ci100x_global.o [1]
+g_dma_translate_ok1     0x2000c418     0x4  Data  Gb  ci100x_global.o [1]
+g_dma_translate_ok2     0x2000c464     0x4  Data  Gb  ci100x_it.o [1]
+g_end_play_voice_time   0x20006160     0x4  Data  Lc  smt_cs42l52.o [1]
+g_snr                   0x2000c370     0x4  Data  Gb  ci100x_asr.o [3]
+g_snr_result            0x2000c3cc     0x4  Data  Gb  task_asr_in.o [3]
+g_user_manage_t         0x2000c3b8     0x8  Data  Gb  user_main.o [1]
+g_win_min_eng           0x2000c36c     0x4  Data  Gb  ci100x_asr.o [3]
+get_PlayVoice_EndTime()
+                        0x1fff5ce7     0x8  Code  Gb  smt_cs42l52.o [1]
+get_VAD_flag()          0x1ffefb69     0x6  Code  Gb  task_asr_in.o [3]
+get_decoderesult_and_clear()
+                        0x1ffee5b5    0x10  Code  Gb  task_asr_in.o [3]
+get_decoderesult_and_reset()
+                        0x1ffee599    0x10  Code  Gb  task_asr_in.o [3]
+get_snr()               0x1fff0d9f     0x8  Code  Gb  ci100x_asr.o [3]
+get_vad_off_frame_count()
+                        0x1fff0db5     0x6  Code  Gb  ci100x_asr.o [3]
+get_vad_on_frame_count()
+                        0x1fff0daf     0x6  Code  Gb  ci100x_asr.o [3]
+get_win_min_eng()       0x1fff0d87     0x8  Code  Gb  ci100x_asr.o [3]
+get_win_mineng(float)   0x1fff66b9    0x4c  Code  Gb  ci100x_softvad.o [3]
+getpsd_min(float)       0x1fff0159    0x58  Code  Gb  ci100x_asr.o [3]
+gs_uar2_user            0x2000c470     0x4  Data  Gb  com2_task.o [1]
+handle                  0x2000c404     0x4  Data  Gb  ci100x_global.o [1]
+hardvad_timeout         0x2000c448     0x4  Data  Gb  ci100x_global.o [1]
+hasResult()             0x1ffef2bf   0x218  Code  Gb  task_asr_in.o [3]
+i2c0_algo               0x20005f78     0x8  Data  Gb  ci100x_i2c.o [1]
+i2c0_master             0x20005ef8    0x30  Data  Gb  ci100x_i2c.o [1]
+i2c1_algo               0x20005f80     0x8  Data  Gb  ci100x_i2c.o [1]
+i2c1_master             0x20005f28    0x30  Data  Gb  ci100x_i2c.o [1]
+i2c_address(i2c_algo_data *, i2c_msg *)
+                        0x1fff7fad    0x1a  Code  Lc  ci100x_i2c.o [1]
+i2c_init                0x1fff81c9   0x134  Code  Gb  ci100x_i2c.o [1]
+i2c_master_send         0x1fff8345    0x5e  Code  Gb  ci100x_i2c.o [1]
+i2c_master_transfer     0x1fff82fd    0x48  Code  Gb  ci100x_i2c.o [1]
+i2c_readbyte(void *, int)
+                        0x1fff7f01     0x6  Code  Lc  ci100x_i2c.o [1]
+i2c_readbytes(i2c_algo_data *, char *, int, int)
+                        0x1fff8079    0x7c  Code  Lc  ci100x_i2c.o [1]
+i2c_reset(void *)       0x1fff7f5d     0x8  Code  Lc  ci100x_i2c.o [1]
+i2c_sendbytes(i2c_algo_data *, char const *, int, int)
+                        0x1fff8013    0x66  Code  Lc  ci100x_i2c.o [1]
+i2c_start(i2c_algo_data *)
+                        0x1fff7f65    0x22  Code  Lc  ci100x_i2c.o [1]
+i2c_stop(i2c_algo_data *)
+                        0x1fff7f87    0x26  Code  Lc  ci100x_i2c.o [1]
+i2c_timeout             0x20005f70     0x4  Data  Lc  ci100x_i2c.o [1]
+i2c_transfer(i2c_algo_data *, int, int, int)
+                        0x1fff7fc7    0x4c  Code  Lc  ci100x_i2c.o [1]
+i2c_waitforcompletion(void *)
+                        0x1fff7f0d    0x50  Code  Lc  ci100x_i2c.o [1]
+i2c_writebyte(void *, int, int)
+                        0x1fff7f07     0x6  Code  Lc  ci100x_i2c.o [1]
+i2c_xfer(i2c_data *, i2c_msg *, int)
+                        0x1fff80f5    0xd4  Code  Lc  ci100x_i2c.o [1]
+i2s_end                 0x2000607d     0x1  Data  Lc  smt_cs42l52.o [1]
+iic0_client_flags       0x20005f68     0x4  Data  Gb  ci100x_i2c.o [1]
+iic0_expact_send_size   0x20005f60     0x4  Data  Gb  ci100x_i2c.o [1]
+iic1_client_flags       0x20005f6c     0x4  Data  Gb  ci100x_i2c.o [1]
+iic1_expact_send_size   0x20005f64     0x4  Data  Gb  ci100x_i2c.o [1]
+iis1_8374_play_init()   0x1fff56e1   0x250  Code  Gb  smt_cs42l52.o [1]
+iis1_8388_play_init()   0x1fff5979   0x25e  Code  Gb  smt_cs42l52.o [1]
+iis1_ES8388_play_cmd()  0x1fff54b1   0x148  Code  Gb  smt_cs42l52.o [1]
+iis1_cs42l52_adpcmplay_cmd_handler
+                        0x1fff5605    0x84  Code  Gb  smt_cs42l52.o [1]
+iis1_play_init          0x1fff5c15    0x42  Code  Gb  smt_cs42l52.o [1]
+init_mparams            0x1ffea583    0x32  Code  Lc  dlmalloc.o [6]
+init_top                0x1ffea5b5    0x34  Code  Lc  dlmalloc.o [6]
+isSilence(int)          0x1ffec399    0x1a  Code  Gb  silence.o [4]
+is_person_voice         0x20006078     0x4  Data  Gb  task_asr_in.o [3]
+iwdg_rstInit(int)       0x1fff716f    0x6a  Code  Gb  smt_iwdg.o [1]
+iwdg_watch              0x2000c444     0x4  Data  Gb  ci100x_global.o [1]
+keyMapping(int)         0x1fffacb1    0x6c  Code  Gb  smt_adc.o [1]
+key_holding_flag        0x2000c4a1     0x1  Data  Gb  Task_key.o [1]
+keycnt                  0x2000c380     0x4  Data  Gb  user_main.o [1]
+last2_min               0x2000c294     0x4  Data  Gb  ci100x_asr.o [3]
+last_f                  0x20005fa4     0x4  Data  Lc  task_asr_in.o [3]
+last_min                0x2000c290     0x4  Data  Gb  ci100x_asr.o [3]
+log_psdback             0x2000c3c4     0x4  Data  Gb  ci100x_asr.o [3]
+logf                    0x1fff6519     0x6  Code  Gb  logf.o [7]
+logpsd                  0x2000c484     0x4  Data  Gb  ci100x_asr.o [3]
+macro_asr_init(int, unsigned int, int, float, char *)
+                        0x1ffee281    0x1e  Code  Gb  task_asr_in.o [3]
+macro_cnt_init(int, int, int, int, int, int)
+                        0x1ffee2cf    0x1c  Code  Gb  task_asr_in.o [3]
+macro_decode_init(int, int, int, int, int, int, int, int)
+                        0x1ffee29f    0x30  Code  Gb  task_asr_in.o [3]
+macro_score_init(float, float, float, float, int, char *)
+                        0x1ffee2eb    0x28  Code  Gb  task_asr_in.o [3]
+macro_timeout_init(int, int, int, int, int, int, int)
+                        0x1ffee341    0x24  Code  Gb  task_asr_in.o [3]
+macro_vad_init(int, unsigned int, int, unsigned int, int, int)
+                        0x1ffee313    0x2e  Code  Gb  task_asr_in.o [3]
+main                    0x1fff1c5b    0x18  Code  Gb  main.o [1]
+master_send             0x2000c3a8     0x8  Data  Lc  ci100x_it.o [1]
+max_eng_th              0x200060f0     0x4  Data  Lc  ci100x_softvad.o [3]
+max_frame_time_nums     0x20005f9c     0x4  Data  Gb  task_asr_in.o [3]
+maxtime2ck(double)      0x1fffaf4b    0x18  Code  Lc  ci100x_sdram.o [1]
+mcro_get_20921_use_6_156_2_16()
+                        0x1ffefac7     0x8  Code  Gb  task_asr_in.o [3]
+mcro_get_macro_decode_debug()
+                        0x1ffefae5     0x6  Code  Gb  task_asr_in.o [3]
+mcro_get_macro_test_into_unwakeup_check_busy()
+                        0x1ffefaeb     0x8  Code  Gb  task_asr_in.o [3]
+mcro_get_macro_use_fft_softvad()
+                        0x1ffefadd     0x8  Code  Gb  task_asr_in.o [3]
+mcro_get_macro_usesmic()
+                        0x1ffefad7     0x6  Code  Gb  task_asr_in.o [3]
+mcro_get_use_8374()     0x1ffefacf     0x8  Code  Gb  task_asr_in.o [3]
+mcro_set_macro_use_fft_softvad(int)
+                        0x1ffefaf3     0x8  Code  Gb  task_asr_in.o [3]
+memchr                  0x1ffecce9          Code  Gb  memchr.o [8]
+memcpy                  0x1fff34cf     0xc  Code  Gb  memcpy.o [6]
+memset                  0x1fff34db    0x14  Code  Gb  memset.o [6]
+mintime2ck(double)      0x1fffaf2f    0x1c  Code  Lc  ci100x_sdram.o [1]
+mp3Sendbyte(unsigned char)
+                        0x1fff7bdd    0x9c  Code  Lc  sh86313.o [1]
+mp3init                 0x1fff7cb3    0x40  Code  Gb  sh86313.o [1]
+mparams                 0x2000c31c    0x18  Data  Lc  dlmalloc.o [6]
+mute_off_es8388_output()
+                        0x1fff56df     0x2  Code  Gb  smt_cs42l52.o [1]
+mute_on_es8388_output()
+                        0x1fff56dd     0x2  Code  Gb  smt_cs42l52.o [1]
+my_log2(int)            0x1fffaee5    0x1a  Code  Lc  ci100x_sdram.o [1]
+ndigs                   0x1ffebe14    0x28  Data  Lc  xstoul.o [6]
+nodnn_start             0x2000c450     0x4  Data  Gb  ci100x_global.o [1]
+noresult_just_reset()   0x1ffee5a9     0xc  Code  Gb  task_asr_in.o [3]
+normal_eng_th           0x200060f4     0x4  Data  Lc  ci100x_softvad.o [3]
+nvdat_read(char *, unsigned char)
+                        0x1fff72bf    0xb4  Code  Gb  nvdata_save.o [1]
+nvdata                  0x70300000   0x100  Data  Gb  nvdata_save.o [1]
+nvdata_index            0x2000c47c     0x4  Data  Gb  nvdata_save.o [1]
+nvdata_init()           0x1fff7249    0x76  Code  Gb  nvdata_save.o [1]
+nvdata_save             0x2000c458     0x4  Data  Gb  ci100x_global.o [1]
+nvdata_write(char *, unsigned char)
+                        0x1fff7373    0xc0  Code  Gb  nvdata_save.o [1]
+pInitStruct             0x20005ea4     0x4  Data  Gb  ci100x_asr.o [3]
+para_info               0x2000c2d4    0x10  Data  Gb  task_asr.o [1]
+pcm_rptr                0x2000c434     0x4  Data  Gb  ci100x_global.o [1]
+pcm_wptr                0x2000c430     0x4  Data  Gb  ci100x_global.o [1]
+play_IT_queue           0x2000c43c     0x4  Data  Gb  ci100x_global.o [1]
+play_Q                  0x2000c438     0x4  Data  Gb  ci100x_global.o [1]
+play_ack_queue          0x2000c440     0x4  Data  Gb  ci100x_global.o [1]
+play_prompt()           0x1fff37c5    0x68  Code  Lc  user_main.o [1]
+pows                    0x1fff9de0    0x48  Data  Lc  xdtento.o [7]
+preDealResult(char *)   0x1ffef1a5    0x28  Code  Gb  task_asr_in.o [3]
+prepend_alloc           0x1ffea5e9   0x33c  Code  Lc  dlmalloc.o [6]
+printk_string           0x2000bf5c    0xfc  Data  Gb  ci100x_uart.o [1]
+prvAddCurrentTaskToDelayedList(unsigned int)
+                        0x1fff17f5    0x34  Code  Lc  tasks.o [1]
+prvAllocateTCBAndStack(unsigned short, unsigned int *)
+                        0x1fff1831    0x3e  Code  Lc  tasks.o [1]
+prvCheckForValidListAndQueue()
+                        0x1fff6d4f    0x52  Code  Lc  timers.o [1]
+prvCheckTasksWaitingTermination()
+                        0x1fff17ab    0x46  Code  Lc  tasks.o [1]
+prvCopyDataFromQueue(QueueDefinition *, void *)
+                        0x1fff33cb    0x24  Code  Lc  queue.o [1]
+prvCopyDataToQueue(QueueDefinition *, void const *, long)
+                        0x1fff3351    0x7a  Code  Lc  queue.o [1]
+prvDeleteTCB(tskTaskControlBlock *)
+                        0x1fff186f    0x14  Code  Lc  tasks.o [1]
+prvGetNextExpireTime(long *)
+                        0x1fff6bab    0x1a  Code  Lc  timers.o [1]
+prvHeapInit()           0x1fff6ef5    0x52  Code  Lc  heap_4.o [1]
+prvIdleTask(void *)     0x1fff16e1    0x20  Code  Lc  tasks.o [1]
+prvInitialiseTCBVariables(tskTaskControlBlock *, char const *, unsigned long, xMEMORY_REGION const *, unsigned short)
+                        0x1fff1701    0x5a  Code  Lc  tasks.o [1]
+prvInitialiseTaskLists()
+                        0x1fff175b    0x50  Code  Lc  tasks.o [1]
+prvInsertBlockIntoFreeList(A_BLOCK_LINK *)
+                        0x1fff6f47    0x4e  Code  Lc  heap_4.o [1]
+prvInsertTimerInActiveList(tmrTimerControl *, unsigned int, unsigned int, unsigned int)
+                        0x1fff6beb    0x3e  Code  Lc  timers.o [1]
+prvIsQueueEmpty(QueueDefinition const *)
+                        0x1fff3457    0x18  Code  Lc  queue.o [1]
+prvIsQueueFull(QueueDefinition const *)
+                        0x1fff346f    0x1e  Code  Lc  queue.o [1]
+prvProcessExpiredTimer(unsigned int, unsigned int)
+                        0x1fff6ad1    0x5c  Code  Lc  timers.o [1]
+prvProcessReceivedCommands()
+                        0x1fff6c29    0xbe  Code  Lc  timers.o [1]
+prvProcessTimerOrBlockTask(unsigned int, long)
+                        0x1fff6b41    0x6a  Code  Lc  timers.o [1]
+prvResetNextTaskUnblockTime()
+                        0x1fff1883    0x20  Code  Lc  tasks.o [1]
+prvSampleTimeNow(long *)
+                        0x1fff6bc5    0x26  Code  Lc  timers.o [1]
+prvSetupHardware()      0x1fff1bff    0x5c  Code  Lc  main.o [1]
+prvSwitchTimerLists()   0x1fff6ce7    0x68  Code  Lc  timers.o [1]
+prvTaskExitError()      0x1fff67c1    0x28  Code  Lc  port.o [1]
+prvTimerTask(void *)    0x1fff6b2d    0x14  Code  Lc  timers.o [1]
+prvUnlockQueue(QueueDefinition *)
+                        0x1fff33ef    0x68  Code  Lc  queue.o [1]
+psdmin_invariant(float)
+                        0x1fff0045   0x114  Code  Gb  ci100x_asr.o [3]
+ptr_addr                0x2000615c     0x4  Data  Gb  ci100x_global.o [1]
+ptr_i2c0_master         0x20005f74     0x4  Data  Gb  ci100x_i2c.o [1]
+pvPortMalloc            0x1fff6db5    0xd8  Code  Gb  heap_4.o [1]
+pvTaskIncrementMutexHeldCount
+                        0x1fff19d1    0x16  Code  Gb  tasks.o [1]
+pxCurrentTCB            0x2000c1bc     0x4  Data  Gb  tasks.o [1]
+pxCurrentTimerList      0x2000c2e8     0x4  Data  Lc  timers.o [1]
+pxDelayedTaskList       0x2000c148     0x4  Data  Lc  tasks.o [1]
+pxEnd                   0x20006178     0x4  Data  Lc  heap_4.o [1]
+pxOverflowDelayedTaskList
+                        0x2000c14c     0x4  Data  Lc  tasks.o [1]
+pxOverflowTimerList     0x2000c2ec     0x4  Data  Lc  timers.o [1]
+pxPortInitialiseStack   0x1fff679d    0x24  Code  Gb  port.o [1]
+pxReadyTasksLists       0x2000c1c0    0x78  Data  Lc  tasks.o [1]
+real_back_eng           0x20005e64     0x4  Data  Gb  ci100x_asr.o [3]
+real_prs                0x20005e74     0x4  Data  Gb  ci100x_asr.o [3]
+record_eng()            0x1fff0c5d    0xd4  Code  Gb  ci100x_asr.o [3]
+result_count            0x20005e40     0x4  Data  Gb  ci100x_asr.o [3]
+run_mode                0x2000c460     0x4  Data  Gb  ci100x_global.o [1]
+rx_data                 0x2000c35c    0x10  Data  Gb  ci100x_can.o [1]
+s_macro                 0x2000be50    0xa8  Data  Gb  task_asr_in.o [3]
+scu_vadasrreset         0x1fff0ac7    0x22  Code  Gb  ci100x_asr.o [3]
+sd_transend             0x2000c40c     0x4  Data  Gb  ci100x_global.o [1]
+sdram_init              0x1fffaf65   0x45c  Code  Gb  ci100x_sdram.o [1]
+segment_holding         0x1ffea569    0x1a  Code  Lc  dlmalloc.o [6]
+send_err_irqmsg2taskasr()
+                        0x1fff0d61    0x26  Code  Gb  ci100x_asr.o [3]
+send_play_by_func_index(int)
+                        0x1fff39ad    0x3a  Code  Gb  user_main.o [1]
+send_result_to_usertask(char *)
+                        0x1fff29c1    0x86  Code  Gb  task_asr.o [1]
+set_PlayVoice_time()    0x1fff5cfb     0xe  Code  Gb  smt_cs42l52.o [1]
+set_VAD_flag_status(int)
+                        0x1ffefb63     0x6  Code  Gb  task_asr_in.o [3]
+set_snr(float)          0x1fff0da7     0x8  Code  Gb  ci100x_asr.o [3]
+set_start_no_use_frame_number(int)
+                        0x1ffee061     0x8  Code  Gb  task_asr_in.o [3]
+set_vad_off_frame_count(int)
+                        0x1fff0dc1     0x6  Code  Gb  ci100x_asr.o [3]
+set_vad_on_frame_count(int)
+                        0x1fff0dbb     0x6  Code  Gb  ci100x_asr.o [3]
+set_win_min_eng(unsigned int)
+                        0x1fff0d8f    0x10  Code  Gb  ci100x_asr.o [3]
+setandgetASRpara()      0x1fff26d1    0x8a  Code  Gb  task_asr.o [1]
+sg_VAD_ENG_LOW_END      0x20005e98     0x4  Data  Gb  ci100x_asr.o [3]
+sg_VAD_ENG_LOW_START    0x20005e94     0x4  Data  Gb  ci100x_asr.o [3]
+sg_snr                  0x200060ec     0x4  Data  Lc  ci100x_softvad.o [3]
+show_average_all_sil_phones()
+                        0x1ffee0a5    0x90  Code  Gb  task_asr_in.o [3]
+show_average_bkeng_and_snr()
+                        0x1ffee201    0x80  Code  Gb  task_asr_in.o [3]
+show_sil_phones(float *)
+                        0x1ffee069    0x3c  Code  Gb  task_asr_in.o [3]
+sil_nphones_result      0x20006018    0x20  Data  Gb  task_asr_in.o [3]
+sil_phonesframe_num     0x20006038     0x4  Data  Gb  task_asr_in.o [3]
+sil_point               0x2000603c    0x1c  Data  Gb  task_asr_in.o [3]
+sil_value               0x20006058    0x1c  Data  Lc  task_asr_in.o [3]
+skip_frame_num          0x20005f98     0x4  Data  Gb  task_asr_in.o [3]
+snd2mp3(unsigned char *, unsigned char)
+                        0x1fff7c79    0x3a  Code  Lc  sh86313.o [1]
+specialwords_lst        0x1fffb898    0x68  Data  Gb  ci100x_asrcmd.o [1]
+spn_cnt                 0x20005fac     0x4  Data  Gb  task_asr_in.o [3]
+sprintf                 0x1ffec759    0x34  Code  Gb  sprintf.o [6]
+sscanf                  0x1ffebc51    0x24  Code  Gb  sscanf.o [6]
+start_frames            0x2000c28c     0x4  Data  Gb  ci100x_asr.o [3]
+start_lowpower_cout()   0x1ffee525    0x1a  Code  Gb  task_asr_in.o [3]
+start_no_use_frame_number
+                        0x20006074     0x4  Data  Gb  task_asr_in.o [3]
+start_readpcm           0x2000c42c     0x4  Data  Gb  ci100x_global.o [1]
+std::pair<int *, int *> std::_Unguarded_partition<int *>(int *, int *)
+                        0x1ffecd4d   0x160  Code  Gb  cikd_decoder.o [4]
+std::strstr(char *, char const *)
+                        0x1fff3ad5     0x4  Code  Gb  task_asr.o [1]
+strcat                  0x1ffec73b    0x1c  Code  Gb  strcat.o [6]
+strchr                  0x1ffeccd1          Code  Gb  strchr.o [8]
+strlen                  0x1ffebbb5          Code  Gb  strlen.o [8]
+strncmp                 0x1fff721d    0x2a  Code  Gb  strncmp.o [6]
+suart0_rx_handle(unsigned char)
+                        0x1fff76b7    0x9e  Code  Gb  com2_task.o [1]
+suart2_send(char *, int)
+                        0x1fff765b    0x5c  Code  Gb  com2_task.o [1]
+switch_language_reset_ASR(int, int, int)
+                        0x1ffef975    0x88  Code  Gb  task_asr_in.o [3]
+sys_alloc               0x1ffea925   0x384  Code  Lc  dlmalloc.o [6]
+sysinit_index           0x2000c2e4     0x4  Data  Gb  task_asr.o [1]
+tempkey1                0x2000c37c     0x1  Data  Gb  user_main.o [1]
+tempkey2                0x2000c37d     0x1  Data  Gb  user_main.o [1]
+tempkey3                0x2000c37e     0x1  Data  Gb  user_main.o [1]
+test_reset_iis1()       0x1fff5caf    0x38  Code  Gb  smt_cs42l52.o [1]
+test_wakeup             0x2000c3a0     0x4  Data  Gb  ci100x_it.o [1]
+timer_stop              0x1fff3ac5    0x10  Code  Gb  ci100x_timer.o [1]
+tkey_Longpress          0x20006138     0x4  Data  Lc  smt_adc.o [1]
+tkey_Prevpresse         0x20006130     0x4  Data  Lc  smt_adc.o [1]
+tkey_presseed           0x20006134     0x4  Data  Lc  smt_adc.o [1]
+tmalloc_large           0x1ffeacb5   0x38a  Code  Lc  dlmalloc.o [6]
+tmalloc_small           0x1ffeb03f   0x204  Code  Lc  dlmalloc.o [6]
+tmp1                    0x20005e80     0x4  Data  Gb  ci100x_asr.o [3]
+tmp2                    0x20005e84     0x4  Data  Gb  ci100x_asr.o [3]
+tmp3                    0x20005e88     0x4  Data  Gb  ci100x_asr.o [3]
+tmpret_end              0x20005e90     0x4  Data  Gb  ci100x_asr.o [3]
+tmpret_start            0x20005e8c     0x4  Data  Gb  ci100x_asr.o [3]
+tx_count                0x20005f58     0x8  Data  Gb  ci100x_i2c.o [1]
+ucHeap                  0x20006188  0x5000  Data  Lc  heap_4.o [1]
+ucMaxSysCallPriority    0x20006140     0x1  Data  Lc  port.o [1]
+ulHighFrequencyTimerTicks
+                        0x2000c408     0x4  Data  Gb  ci100x_global.o [1]
+ulMaxPRIGROUPValue      0x20006148     0x4  Data  Lc  port.o [1]
+ulTaskSwitchedInTime    0x2000c18c     0x4  Data  Lc  tasks.o [1]
+ulTotalRunTime          0x2000c190     0x4  Data  Lc  tasks.o [1]
+up_int(double)          0x1fffaeff    0x30  Code  Lc  ci100x_sdram.o [1]
+update_vadprseng(unsigned int, unsigned int)
+                        0x1ffefec1     0xa  Code  Gb  ci100x_asr.o [3]
+user_task_queue         0x2000c3e8     0x4  Data  Gb  ci100x_global.o [1]
+userapp_deal_asr_msg(sys_asr_msg_data_t *)
+                        0x1fff37a7    0x1a  Code  Gb  user_main.o [1]
+userapp_deal_com_msg(sys_com_msg_data_t *)
+                        0x1fff7755   0x226  Code  Gb  com2_task.o [1]
+userapp_deal_key_msg(sys_key_msg_data_t *)
+                        0x1fff7af5    0xa4  Code  Gb  Task_key.o [1]
+userapp_initial         0x1fff37c1     0x4  Code  Gb  user_main.o [1]
+uxCriticalNesting       0x20006144     0x4  Data  Lc  port.o [1]
+uxCurrentNumberOfTasks  0x2000c168     0x4  Data  Lc  tasks.o [1]
+uxListRemove            0x1fff69f9    0x24  Code  Gb  list.o [1]
+uxPendedTicks           0x2000c174     0x4  Data  Lc  tasks.o [1]
+uxSchedulerSuspended    0x2000c188     0x4  Data  Lc  tasks.o [1]
+uxTaskNumber            0x2000c180     0x4  Data  Lc  tasks.o [1]
+uxTasksDeleted          0x2000c150     0x4  Data  Lc  tasks.o [1]
+uxTopReadyPriority      0x2000c238     0x4  Data  Lc  tasks.o [1]
+vListInitialise         0x1fff698d    0x1a  Code  Gb  list.o [1]
+vListInitialiseItem     0x1fff69a7     0x6  Code  Gb  list.o [1]
+vListInsert             0x1fff69c5    0x34  Code  Gb  list.o [1]
+vListInsertEnd          0x1fff69ad    0x18  Code  Gb  list.o [1]
+vPortEnableVFP          0x1fff98b9          Code  Gb  portasm.o [1]
+vPortEnterCritical      0x1fff6891    0x32  Code  Gb  port.o [1]
+vPortExitCritical       0x1fff68c3    0x26  Code  Gb  port.o [1]
+vPortFree               0x1fff6e8d    0x68  Code  Gb  heap_4.o [1]
+vPortSetupTimerInterrupt()
+                        0x1fff6911     0xc  Code  Wk  port.o [1]
+vPortStartFirstTask     0x1fff98a1          Code  Gb  portasm.o [1]
+vPortValidateInterruptPriority
+                        0x1fff691d    0x44  Code  Gb  port.o [1]
+vQueueWaitForMessageRestricted
+                        0x1fff348d    0x42  Code  Gb  queue.o [1]
+vTaskASRdecode(void *)  0x1ffef0c9    0xdc  Code  Gb  task_asr_in.o [3]
+vTaskCreate()           0x1fff1e53    0xb6  Code  Lc  main.o [1]
+vTaskDelay              0x1fff11df    0x70  Code  Gb  tasks.o [1]
+vTaskMissedYield        0x1fff16d7     0xa  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventList   0x1fff1509    0x64  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventListRestricted
+                        0x1fff156d    0x60  Code  Gb  tasks.o [1]
+vTaskPriorityInherit    0x1fff18bf    0x7e  Code  Gb  tasks.o [1]
+vTaskSetTimeOutState    0x1fff163f    0x22  Code  Gb  tasks.o [1]
+vTaskStartScheduler     0x1fff124f    0x74  Code  Gb  tasks.o [1]
+vTaskSuspendAll         0x1fff12cd     0xc  Code  Gb  tasks.o [1]
+vTaskSwitchContext      0x1fff148f    0x7a  Code  Gb  tasks.o [1]
+vTaskVariablesInit()    0x1fff1f09   0x240  Code  Lc  main.o [1]
+vTask_LowPower(void *)  0x1fff1ccd   0x186  Code  Lc  main.o [1]
+vTask_Test              0x1fff2a8b    0x28  Code  Gb  task_asr.o [1]
+vTask_play(void *)      0x1fff5d15   0x504  Code  Gb  smt_cs42l52.o [1]
+vad_backengrg           0x20005e70     0x4  Data  Gb  ci100x_asr.o [3]
+vad_bug                 0x2000c41c     0x4  Data  Gb  ci100x_global.o [1]
+vad_engrecord           0x2000b188   0x7d0  Data  Gb  ci100x_asr.o [3]
+vad_engrecord_idx       0x20005eac     0x4  Data  Gb  ci100x_asr.o [3]
+vad_off_frame_count     0x2000c378     0x4  Data  Gb  ci100x_asr.o [3]
+vad_on_frame_count      0x2000c374     0x4  Data  Gb  ci100x_asr.o [3]
+vad_onvoice(unsigned int, float)
+                        0x1ffefecb    0x30  Code  Gb  ci100x_asr.o [3]
+vad_prsp_param          0x20006164     0x4  Data  Gb  ci100x_asr.o [3]
+vad_state_lib(int)      0x1fff2b4d    0xe6  Code  Gb  task_asr.o [1]
+vad_status_start        0x20005e78     0x4  Data  Gb  ci100x_asr.o [3]
+vad_updateeng()         0x1ffefefb    0xf6  Code  Gb  ci100x_asr.o [3]
+vad_wakeup_flag         0x2000c478     0x4  Data  Gb  main.o [1]
+vadend_start            0x2000c454     0x4  Data  Gb  ci100x_global.o [1]
+vadlog_end              0x20005e60     0x4  Data  Gb  ci100x_asr.o [3]
+vadlog_pcmsize          0x20006120     0x4  Data  Gb  ci100x_it.o [1]
+vadsumeng               0x20005e68     0x4  Data  Gb  ci100x_asr.o [3]
+vc_info                 0x2000c2a0    0x34  Data  Gb  task_asr.o [1]
+voice_on_buf_end_idx    0x2000c280     0x4  Data  Gb  ci100x_asr.o [3]
+voice_on_buf_start_idx  0x2000c27c     0x4  Data  Gb  ci100x_asr.o [3]
+voice_on_curframe       0x2000c284     0x4  Data  Gb  ci100x_asr.o [3]
+voice_on_end_buf        0x2000c248    0x34  Data  Gb  ci100x_asr.o [3]
+voice_on_start_buf      0x2000c23c     0xc  Data  Gb  ci100x_asr.o [3]
+void std::_Med3<int *>(int *, int *, int *)
+                        0x1ffedd49    0x36  Code  Gb  cikd_decoder.o [4]
+void std::nth_element<int *>(int *, int *, int *)
+                        0x1ffec659    0x7a  Code  Gb  cikd_decoder.o [4]
+vol_dn()                0x1fff361f    0x2c  Code  Gb  user_main.o [1]
+vol_set(char)           0x1fff5c57    0x58  Code  Gb  smt_cs42l52.o [1]
+vol_up()                0x1fff35f3    0x2c  Code  Gb  user_main.o [1]
+volume_table            0x1fff64d4     0x8  Data  Lc  smt_cs42l52.o [1]
+vsnprintf               0x1fff64dd    0x3c  Code  Gb  vsnprint.o [6]
+w_pointer               0x20005e44     0x4  Data  Gb  ci100x_asr.o [3]
+wait_event_interruptible
+                        0x1fff7ed3    0x2e  Code  Gb  ci100x_i2c.o [1]
+wait_ms(int)            0x1fff7bbd    0x16  Code  Lc  sh86313.o [1]
+wakewords_lst           0x2000614c     0x8  Data  Gb  ci100x_asrcmd.o [1]
+wav_buf                 0x200060ac     0x8  Data  Lc  smt_cs42l52.o [1]
+welcome()               0x1fff2149    0x4a  Code  Lc  main.o [1]
+win                     0x2000b958   0x320  Data  Gb  ci100x_asr.o [3]
+win_frm_count           0x200060e4     0x4  Data  Lc  ci100x_softvad.o [3]
+win_idx                 0x2000c288     0x4  Data  Gb  ci100x_asr.o [3]
+win_min_final_eng       0x200060e8     0x4  Data  Lc  ci100x_softvad.o [3]
+win_size                0x200060e0     0x4  Data  Lc  ci100x_softvad.o [3]
+xActiveTimerList1       0x2000c2f4    0x14  Data  Lc  timers.o [1]
+xActiveTimerList2       0x2000c308    0x14  Data  Lc  timers.o [1]
+xBlockAllocatedBit      0x20006184     0x4  Data  Lc  heap_4.o [1]
+xDelayedTaskList1       0x2000c194    0x14  Data  Lc  tasks.o [1]
+xDelayedTaskList2       0x2000c1a8    0x14  Data  Lc  tasks.o [1]
+xFileMutexlockSemaphore
+                        0x2000c3f0     0x4  Data  Gb  ci100x_global.o [1]
+xFreeBytesRemaining     0x2000617c     0x4  Data  Lc  heap_4.o [1]
+xHandleLowPower         0x2000c3b4     0x4  Data  Lc  main.o [1]
+xHandleTaskASRdecode    0x2000c3b0     0x4  Data  Lc  main.o [1]
+xLowPowerSemaphore      0x2000c3ec     0x4  Data  Gb  ci100x_global.o [1]
+xMinimumEverFreeBytesRemaining
+                        0x20006180     0x4  Data  Lc  heap_4.o [1]
+xNextTaskUnblockTime    0x2000c184     0x4  Data  Lc  tasks.o [1]
+xNumOfOverflows         0x2000c17c     0x4  Data  Lc  tasks.o [1]
+xPWM_INTClear           0x1fffac5f     0x8  Code  Gb  ci100x_xpwm.o [1]
+xPWM_IRQHandler         0x1fffa43d     0x8  Code  Gb  ci100x_it.o [1]
+xPWM_TZCLR              0x1fffac51     0xe  Code  Gb  ci100x_xpwm.o [1]
+xPWM_TZ_IRQHandler      0x1fffa447    0x1a  Code  Gb  ci100x_it.o [1]
+xPendingReadyList       0x2000c120    0x14  Data  Lc  tasks.o [1]
+xPortStartScheduler     0x1fff67e9    0xa8  Code  Gb  port.o [1]
+xQueueCreateMutex       0x1fff2e91    0x4e  Code  Gb  queue.o [1]
+xQueueGenericCreate     0x1fff2e13    0x7e  Code  Gb  queue.o [1]
+xQueueGenericReceive    0x1fff31cb   0x180  Code  Gb  queue.o [1]
+xQueueGenericReset      0x1fff2d89    0x8a  Code  Gb  queue.o [1]
+xQueueGenericSend       0x1fff2edf   0x172  Code  Gb  queue.o [1]
+xQueueGenericSendFromISR
+                        0x1fff3051    0xcc  Code  Gb  queue.o [1]
+xQueueGiveFromISR       0x1fff311d    0xae  Code  Gb  queue.o [1]
+xRecSemaphore           0x2000c420     0x4  Data  Gb  ci100x_global.o [1]
+xRecSemaphore_4K        0x2000c428     0x4  Data  Gb  ci100x_global.o [1]
+xRecStopSemaphore       0x2000c424     0x4  Data  Gb  ci100x_global.o [1]
+xSchedulerRunning       0x2000c170     0x4  Data  Lc  tasks.o [1]
+xStart                  0x20006170     0x8  Data  Lc  heap_4.o [1]
+xSuspendedTaskList      0x2000c154    0x14  Data  Lc  tasks.o [1]
+xTaskCheckForTimeOut    0x1fff1661    0x76  Code  Gb  tasks.o [1]
+xTaskGenericCreate      0x1fff10b9   0x126  Code  Gb  tasks.o [1]
+xTaskGetSchedulerState  0x1fff18a3    0x1c  Code  Gb  tasks.o [1]
+xTaskGetTickCount       0x1fff1397     0x8  Code  Gb  tasks.o [1]
+xTaskGetTickCountFromISR
+                        0x1fff139f     0xe  Code  Gb  tasks.o [1]
+xTaskIncrementTick      0x1fff13ad    0xe2  Code  Gb  tasks.o [1]
+xTaskPriorityDisinherit
+                        0x1fff193d    0x94  Code  Gb  tasks.o [1]
+xTaskRemoveFromEventList
+                        0x1fff15cd    0x72  Code  Gb  tasks.o [1]
+xTaskResumeAll          0x1fff12d9    0xbe  Code  Gb  tasks.o [1]
+xTasksWaitingTermination
+                        0x2000c134    0x14  Data  Lc  tasks.o [1]
+xTickCount              0x2000c16c     0x4  Data  Lc  tasks.o [1]
+xTimerCreateTimerTask   0x1fff6a1d    0x4c  Code  Gb  timers.o [1]
+xTimerGenericCommand    0x1fff6a69    0x68  Code  Gb  timers.o [1]
+xTimerQueue             0x2000c2f0     0x4  Data  Lc  timers.o [1]
+xVadpcmSemaphore        0x2000c3f4     0x4  Data  Gb  ci100x_global.o [1]
+xYieldPending           0x2000c178     0x4  Data  Lc  tasks.o [1]
+
+
+[1] = E:\工作\2019\ci1006\ci-test-git\中文\fw_updata\obj\user
+[2] = command line
+[3] = asr_driver_v2.3_20181109.a
+[4] = cikd_asr0.6.5.1.a
+[5] = denoise_debug_0.1.0.a
+[6] = dl7M_tln.a
+[7] = m7M_tlv.a
+[8] = rt7M_tl.a
+[9] = shb_l.a
+
+     80 279 bytes of readonly  code memory
+      1 632 bytes of readonly  data memory
+  3 181 471 bytes of readwrite data memory (+ 256 absolute)
+
+Errors: none
+Warnings: none

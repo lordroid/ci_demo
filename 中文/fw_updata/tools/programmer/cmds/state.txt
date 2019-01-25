@@ -1,0 +1,2 @@
+savebin .\ret.bin 0x1FFF8000 0x8
+q

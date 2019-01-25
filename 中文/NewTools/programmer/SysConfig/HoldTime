@@ -1,0 +1,14 @@
+[DMA SPI FLASH WR RD speed ] (spi flash 读写速度：kbits/s) =150
+[update.bin filesize:     0 ~      1 kbyte ] Tholdtime (单位：ms) =30
+[update.bin filesize:     1 ~    100 kbyte ] Tholdtime (单位：ms) =70
+[update.bin filesize:   100 ~    200 kbyte ] Tholdtime (单位：ms) =120
+[update.bin filesize:   200 ~    500 kbyte ] Tholdtime (单位：ms) =180
+[update.bin filesize:   500 ~   1024 kbyte ] Tholdtime (单位：ms) =6500
+[update.bin filesize:  1024 ~ 2*1024 kbyte ] Tholdtime (单位：ms) =110000
+[update.bin filesize:2*1024 ~ 3*1024 kbyte ] Tholdtime (单位：ms) =500000
+[update.bin filesize:3*1024 ~ 4*1024 kbyte ] Tholdtime (单位：ms) =800000
+[update.bin filesize:4*1024 ~ 5*1024 kbyte ] Tholdtime (单位：ms) =1000000
+[update.bin filesize:5*1024 ~ 6*1024 kbyte ] Tholdtime (单位：ms) =1500000
+[update.bin filesize:6*1024 ~ 7*1024 kbyte ] Tholdtime (单位：ms) =2000000
+[update.bin filesize:7*1024 ~ 8*1024 kbyte ] Tholdtime (单位：ms) =4000000
+[update.bin filesize:8*1024 ~        kbyte ] Tholdtime (单位：ms) =6000000

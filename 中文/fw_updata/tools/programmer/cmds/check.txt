@@ -1,0 +1,4 @@
+usb
+speed 12000
+verifybin .\fw_config.bin 0x70000004
+q

@@ -1,0 +1,4 @@
+usb
+speed 12000
+verifybin .\Jlink_load.bin 0x70000004
+q

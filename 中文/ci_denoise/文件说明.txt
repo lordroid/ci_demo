@@ -1,0 +1,16 @@
+
+压缩包文件：降噪算法库文件、参数调节接口文件、应用demo
+
+denoise_debug_0.1.0.a:降噪算法的库文件,文件版本CI_DENOISE_DEBUG_0.1.0
+
+denoise_api.h:降噪算法的接口头文件，头文件中包含了调用降噪算法库中所需要的函数
+              进入降噪的参数调节接口函数enter_denoise_api：用于调整自适应降噪的参数，对进入降噪的条件进行调节；
+	      降噪算法的参数调节接口函数denoise_parameter_api：用于调整降噪算法的参数，对降噪效果进行调优；
+	      降噪初始化函数denoise_init：降噪算法所需参数的初始化；
+	      执行降噪算法函数apply_denoise：用于执行降噪算法；
+              降噪算法版本信息函数de
+denoise_getver:用于获取版本信息
+	      
+	      
+ci_denoise.c:该程序为降噪算法库文件及接口头文件的应用demo，通过调用降噪算法中的库函数实现油烟机噪声的降噪处理。并通过coolEditPro实时观察噪声波形及降噪后波形。
+ci_denoise.h:ci_denoise.c的头文件。
